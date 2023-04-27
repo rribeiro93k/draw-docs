@@ -1,5 +1,525 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T12:18:16.007Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="MbuHBHcGCa3LEnn7GEcl" version="21.2.3" type="github">
-  <diagram id="J8FQTKoWVw-aCeoMksY5" name="carrinho-vendedor-cliente">
+<mxfile host="app.diagrams.net" modified="2023-04-27T12:27:41.412Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="q1amlizJ9Q1GzFSHwmu4" version="21.2.3" type="github" pages="3">
+  <diagram id="Ah3j89J9dZjGGa0gmjgg" name="v1">
+    <mxGraphModel dx="4780" dy="2687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-1" value="#1 - Vendedor João simulando uma geladeira sem ter cliente identificado" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="330" width="680" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-2" value="Requisitos:&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;- A simulação pertence ao vendedor até que se identifique um cliente&lt;br style=&quot;font-size: 14px&quot;&gt;- Se a simulação estiver com um cliente identificado, ela pode ser negociada por mais de um vendedor&lt;br&gt;- Cada vendedor precisa (obviamente) ter a sua comissão&lt;br&gt;- Um vendedor não pode remover o produto de outro vendedor&lt;br&gt;- Log de ativação e desativação de produtos dentro da simulação&lt;br&gt;&lt;br&gt;** Até então, ao incluir uma nova negociação em uma negociação já existente, será incluido apenas:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;- produto&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;- seguros e serviços&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;- desconto" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="720" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-3" value="#2 - Vendedor João simulando uma geladeira com cliente Pedro identificado" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="750" width="620" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-4" value="#3 - Vendedor João simulou uma geladeira com o cliente Pedro identificado e depois a vendedora Maria simulou uma batedeira com o mesmo cliente" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1250" width="900" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-5" value="&lt;span&gt;// simulacao&lt;br&gt;&lt;br&gt;{&lt;br&gt;&lt;/span&gt;&amp;nbsp; &quot;_id&quot;: 1&lt;br&gt;&lt;div&gt;&amp;nbsp; &quot;filial&quot;: 1000,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;bandeira&quot;: &quot;CASAS_BAHIA&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;canalOrigem&quot;: &quot;ViaMais_Loja&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;empresa&quot;: 21,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;criadoEm&quot;: &quot;2020-05-05 14:32&quot;,&lt;/div&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;&amp;nbsp; &quot;matriculaVendedor&quot;: 0123456,&lt;/b&gt;&lt;div&gt;&amp;nbsp; &quot;produtos&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;font color=&quot;#00ff00&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;matriculaVendedor&quot;: 0123456,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&quot;criadoEm&quot;: &quot;2020-05-07 15:02&quot;,&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;sku&quot;: 905682,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;nomeProduto&quot;: &quot;Geladeira Consul&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;codigoSetor&quot;: 10,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;quantidade&quot;: 1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;favorita&quot;: false&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fillColor=#666666;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="320" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-6" value="// collection - simulador&lt;span&gt;&lt;br&gt;// simulacao do vendedor&lt;br&gt;&lt;br&gt;{&lt;br&gt;&lt;/span&gt;&lt;b&gt;&amp;nbsp; &quot;_id&quot;: 1,&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &quot;filial&quot;: 1000,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &quot;bandeira&quot;: &quot;CASAS_BAHIA&quot;,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;canalOrigem&quot;: &quot;ViaMais_Loja&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;empresa&quot;: 21,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;&quot;criadoEm&quot;: &quot;2020-05-05 14:32&quot;,&lt;/span&gt;&lt;/div&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;&amp;nbsp; &quot;matriculaVendedor&quot;: 0123456,&lt;/b&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &quot;produtos&quot;: [&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;matriculaVendedor&quot;: 0123456,&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;criadoEm&quot;: &quot;2020-05-07 15:02&quot;,&lt;/b&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;sku&quot;: 905682,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;nomeProduto&quot;: &quot;Geladeira Consul&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;codigoSetor&quot;: 10,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;quantidade&quot;: 1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;servico&quot;: &quot;MULTIASSISTENCIA&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;valor&quot;: &quot;200&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;favorita&quot;: false,&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &quot;status&quot;: &quot;EM_ANDAMENTO&quot;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fillColor=#666666;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="50" y="800" width="320" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-7" value="&lt;span&gt;// collection - simulador&lt;br&gt;// simulacao do cliene&lt;br&gt;&lt;br&gt;&lt;/span&gt;{&lt;br&gt;&amp;nbsp; &quot;_id&quot;: 2,&lt;br&gt;&lt;div&gt;&amp;nbsp; &quot;filial&quot;: 1000,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;bandeira&quot;: &quot;CASAS_BAHIA&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;canalOrigem&quot;: &quot;ViaMais_Loja&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;empresa&quot;: 21,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;criadoEm&quot;: &quot;2020-05-05 17:00&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;&amp;nbsp; &quot;matriculaVendedor&quot;: 0123456,&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&quot;codigoCliente&quot;: codigo_pedro_xpto,&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &quot;desconto&quot;: {&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; valor: 200,&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; tipo: &quot;MONETARIO&quot;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; },&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;produtos&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt; &amp;nbsp; &amp;nbsp; &quot;matriculaVendedor&quot;: 0123456,&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;criadoEm&quot;: &quot;2020-05-07 15:02&quot;,&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;sku&quot;: 905682,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;nomeProduto&quot;: &quot;Geladeira Consul&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;codigoSetor&quot;: 10,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;quantidade&quot;: 1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &lt;font color=&quot;#00ff00&quot;&gt;&quot;status&quot;: &quot;EM_ANDAMENTO&quot;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fillColor=#666666;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="630" y="800" width="320" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-8" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Courier New;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415" y="961.91" as="sourcePoint" />
+            <mxPoint x="585" y="962.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-9" value="&lt;span&gt;// simulacao&lt;br&gt;&lt;br&gt;&lt;/span&gt;{&lt;br&gt;&amp;nbsp; &quot;_id&quot;: 2&lt;br&gt;&lt;div&gt;&amp;nbsp; &quot;filial&quot;: 1000,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;bandeira&quot;: &quot;CASAS_BAHIA&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;canalOrigem&quot;: &quot;ViaMais_Loja&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;empresa&quot;: 21,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;criadoEm&quot;: &quot;2020-05-05 17:00&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;&amp;nbsp; &quot;matriculaVendedor&quot;: 0123456,&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&quot;codigoCliente&quot;:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;codigo_pedro_xpto&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;,&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &quot;desconto&quot;: {&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; valor: 200,&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; tipo: &quot;MONETARIO&quot;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; },&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;produtos&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;matriculaVendedor&quot;: 0123456,&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;criadoEm&quot;: &quot;2020-05-07 15:02&quot;,&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;sku&quot;: 905682,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;nomeProduto&quot;: &quot;Geladeira Consul&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;codigoSetor&quot;: 10,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;quantidade&quot;: 1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;matriculaVendedor&quot;: 0321654,&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;criadoEm&quot;: &quot;2020-05-07 16&lt;/b&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;:02&quot;,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;sku&quot;: 754622,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;nomeProduto&quot;: &quot;Batedeira Tramontina&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;codigoSetor&quot;: 25,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;quantidade&quot;: 1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &lt;font color=&quot;#00ff00&quot;&gt;&quot;status&quot;: &quot;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;EM_ANDAMENTO&lt;/span&gt;&lt;font color=&quot;#00ff00&quot;&gt;&quot;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fillColor=#666666;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1310" width="340" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-10" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Courier New;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="582.5" y="1150" as="sourcePoint" />
+            <mxPoint x="432.5" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-11" value="Vincular a simulação ao cliente João" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;fontColor=#160E19;" vertex="1" parent="1">
+          <mxGeometry x="415" y="927.25" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-12" value="Incluir itens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;fontColor=#160E19;rotation=-30;" vertex="1" parent="1">
+          <mxGeometry x="427.5" y="1180" width="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-13" value="#4 - O cliente Pedro gostou das negociações e resolveu fechar a venda" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="50" y="2070" width="750" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;dashed=1;" edge="1" parent="1" source="9uaR8edSKQL9QuCyxGl3-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="2680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-15" value="// simulacao&lt;br&gt;&lt;br&gt;{&lt;br&gt;&amp;nbsp; &quot;_id&quot;: 2&lt;br&gt;&lt;div&gt;&amp;nbsp; &quot;filial&quot;: 1000,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;bandeira&quot;: &quot;CASAS_BAHIA&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;canalOrigem&quot;: &quot;ViaMais_Loja&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;empresa&quot;: 21,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;criadoEm&quot;: &quot;2020-05-05 17:00&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;&amp;nbsp; &quot;matriculaVendedor&quot;: 0123456,&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&quot;codigoCliente&quot;:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;codigo_pedro_xpto&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;,&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &quot;desconto&quot;: {&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; valor: 200,&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; tipo: &quot;MONETARIO&quot;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; },&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;produtos&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;matriculaVendedor&quot;: 0123456,&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;criadoEm&quot;: &quot;2020-05-07 15:02&quot;,&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;sku&quot;: 905682,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;nomeProduto&quot;: &quot;Geladeira Consul&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;codigoSetor&quot;: 10,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;quantidade&quot;: 1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;{&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;matriculaVendedor&quot;: 0321654,&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;criadoEm&quot;: &quot;2020-05-07 16&lt;/b&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;:02&quot;,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;sku&quot;: 754622,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;nomeProduto&quot;: &quot;Batedeira Tramontina&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;codigoSetor&quot;: 25,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;quantidade&quot;: 1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;&quot;status&quot;: &quot;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;INTEGRADO&lt;/span&gt;&lt;font color=&quot;#00ff00&quot;&gt;&quot;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fillColor=#666666;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2110" width="340" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-16" value="V. João" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="500" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-17" value="C. Fantasma" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="500" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/pinpoint-notifocation/48/question-128.png" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="510" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-19" value="V. João" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="940" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-20" value="C. Pedro" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="940" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-21" value="V. Maria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1460" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-22" value="C. Pedro" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1460" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/bubble-128.png" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="460" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-24" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/bubble-128.png" vertex="1" parent="1">
+          <mxGeometry x="1030" y="890" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-25" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/bubble-128.png" vertex="1" parent="1">
+          <mxGeometry x="475" y="1410" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-26" value="&lt;span&gt;// checkout&lt;br&gt;&lt;br&gt;&lt;/span&gt;{ ...&amp;nbsp;&lt;span&gt;}&lt;/span&gt;" style="text;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fillColor=#666666;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="650" y="2280" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-27" value="Criar checkout a partir da negociação do cliente Pedro" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;fontColor=#160E19;" vertex="1" parent="1">
+          <mxGeometry x="430" y="2280" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-28" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Courier New;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="2324.66" as="sourcePoint" />
+            <mxPoint x="600" y="2325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-29" value="V. Maria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="2170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-30" value="C. Pedro" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="980" y="2170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-31" value="" style="html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#2D9C5E;shape=mxgraph.gcp2.check;labelBackgroundColor=#00FF00;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="917.5" y="2100" width="62.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-32" value="Processar pagamento" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=none;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="2295" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-33" value="Gerar pedido" style="html=1;dashed=0;whitespace=wrap;labelBackgroundColor=none;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="2295" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-34" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Courier New;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="2319.5" as="sourcePoint" />
+            <mxPoint x="1000" y="2320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-35" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Courier New;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1220" y="2319.5" as="sourcePoint" />
+            <mxPoint x="1310" y="2320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-36" value="Kafka" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.topic;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="2275" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;fontColor=#000000;endArrow=none;endFill=0;" edge="1" parent="1" source="9uaR8edSKQL9QuCyxGl3-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1790" y="2400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-38" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/fatcow/32x32/ear_listen.png;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="205" y="2700" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-39" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Courier New;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1560" y="2319.5" as="sourcePoint" />
+            <mxPoint x="1720" y="2320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-40" value="Compra do cliente Pedro realizada" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;fontColor=#160E19;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="2280" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-41" value="// simulacao&lt;br&gt;&lt;br&gt;{&lt;br&gt;&amp;nbsp; &quot;_id&quot;: 2&lt;br&gt;&lt;div&gt;&amp;nbsp; &quot;filial&quot;: 1000,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;bandeira&quot;: &quot;CASAS_BAHIA&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;canalOrigem&quot;: &quot;ViaMais_Loja&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;empresa&quot;: 21,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;criadoEm&quot;: &quot;2020-05-05 17:00&quot;,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;&amp;nbsp; &quot;matriculaVendedor&quot;: 0123456,&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&quot;codigoCliente&quot;:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;codigo_pedro_xpto&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;,&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &quot;desconto&quot;: {&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; valor: 200,&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; tipo: &quot;MONETARIO&quot;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; },&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;produtos&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;matriculaVendedor&quot;: 0123456,&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;criadoEm&quot;: &quot;2020-05-07 15:02&quot;,&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;sku&quot;: 905682,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;nomeProduto&quot;: &quot;Geladeira Consul&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;codigoSetor&quot;: 10,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;quantidade&quot;: 1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;{&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;matriculaVendedor&quot;: 0321654,&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;criadoEm&quot;: &quot;2020-05-07 16&lt;/b&gt;&lt;b style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;:02&quot;,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;sku&quot;: 754622,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;nomeProduto&quot;: &quot;Batedeira Tramontina&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;codigoSetor&quot;: 25,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;quantidade&quot;: 1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;&quot;status&quot;: &quot;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;FINALIZADO&lt;/span&gt;&lt;font color=&quot;#00ff00&quot;&gt;&quot;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fillColor=#666666;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2920" width="340" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-42" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Courier New;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="2770" as="sourcePoint" />
+            <mxPoint x="230.08" y="2900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-43" value="Compra do cliente pedro realizada" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;fontColor=#160E19;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2800" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-44" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/business-and-finance-colorful-free-hand-drawn-set/100/money_dollars-128.png;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="2230" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-45" value="#1 - Vendedor João simulando uma geladeira com cliente Pedro identificado" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="330" width="680" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-46" value="#2 - Vendedor João simulou uma geladeira com o cliente Pedro identificado e depois a vendedora Maria simulou uma batedeira com o mesmo cliente, porém a dona Maria é ruim e removeu o produto do vendedor João" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="830" width="960" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-47" value="// collection - simulador&lt;br&gt;// simulacao do vendedor&lt;span&gt;&lt;br&gt;&lt;br&gt;{&lt;br&gt;&lt;/span&gt;&amp;nbsp; &quot;_id&quot;: xxxxxxxxxxxxx&lt;br&gt;&lt;div&gt;&amp;nbsp; &quot;filial&quot;: 1000,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;bandeira&quot;: &quot;CASAS_BAHIA&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;canalOrigem&quot;: &quot;ViaMais_Loja&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;empresa&quot;: 21,&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &quot;produtos&quot;: [&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;font color=&quot;#00ff00&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;matriculaVendedor&quot;: 0123456,&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;sku&quot;: 905682,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;nomeProduto&quot;: &quot;Geladeira Consul&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;codigoSetor&quot;: 10,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;quantidade&quot;: 1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;favorita&quot;: false&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fillColor=#666666;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="380" width="320" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-48" value="// collection - simulador&lt;br&gt;// simulacao do cliene&lt;span&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;{&lt;br&gt;&amp;nbsp; &quot;_id&quot;: xxxxxxxxxxxxx&lt;br&gt;&lt;div&gt;&amp;nbsp; &quot;filial&quot;: 1000,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;bandeira&quot;: &quot;CASAS_BAHIA&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;canalOrigem&quot;: &quot;ViaMais_Loja&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;empresa&quot;: 21,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&quot;codigoCliente&quot;: codigo_pedro_xpto,&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;produtos&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt; &amp;nbsp; &amp;nbsp; &quot;matriculaVendedor&quot;: 0123456,&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;sku&quot;: 905682,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;nomeProduto&quot;: &quot;Geladeira Consul&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;codigoSetor&quot;: 10,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;quantidade&quot;: 1&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#00ff00&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;habilitado&quot;: true&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &lt;font color=&quot;#00ff00&quot;&gt;&quot;status&quot;: &quot;EM_ANDAMENTO&quot;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fillColor=#666666;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="2610" y="380" width="320" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-49" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Courier New;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2430" y="534.6599999999999" as="sourcePoint" />
+            <mxPoint x="2600" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-50" value="// collection - simulador&lt;br&gt;// simulacao do cliene&lt;span&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;{&lt;br&gt;&amp;nbsp; &quot;_id&quot;: xxxxxxxxxxxxx&lt;br&gt;&lt;div&gt;&amp;nbsp; &quot;filial&quot;: 1000,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;bandeira&quot;: &quot;CASAS_BAHIA&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;canalOrigem&quot;: &quot;ViaMais_Loja&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;empresa&quot;: 21,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&quot;codigoCliente&quot;:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;codigo_pedro_xpto&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;,&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;produtos&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;matriculaVendedor&quot;: 0123456,&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;sku&quot;: 905682,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;nomeProduto&quot;: &quot;Geladeira Consul&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;codigoSetor&quot;: 10,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;quantidade&quot;: 1,&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#00ff00&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;habilitado&quot;: false&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;matriculaVendedor&quot;: 0321654,&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;sku&quot;: 754622,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;nomeProduto&quot;: &quot;Batedeira Tramontina&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;codigoSetor&quot;: 25,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;quantidade&quot;: 1,&lt;/div&gt;&lt;font color=&quot;#00ff00&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;habilitado&quot;: true&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &lt;font color=&quot;#00ff00&quot;&gt;&quot;status&quot;: &quot;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;EM_ANDAMENTO&lt;/span&gt;&lt;font color=&quot;#00ff00&quot;&gt;&quot;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fillColor=#666666;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="890" width="340" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-51" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Courier New;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2570" y="710" as="sourcePoint" />
+            <mxPoint x="2420" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-52" value="Criar simulação para o cliente Pedro" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;fontColor=#160E19;" vertex="1" parent="1">
+          <mxGeometry x="2430" y="500" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-53" value="Incluir itens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Courier New;fontColor=#160E19;rotation=-30;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="740" width="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-54" value="V. João" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="480" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-55" value="C. Pedro" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="3060" y="480" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-56" value="V. Maria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2480" y="1040" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-57" value="C. Pedro" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="1040" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-58" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/bubble-128.png" vertex="1" parent="1">
+          <mxGeometry x="3000" y="430" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-59" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/bubble-128.png" vertex="1" parent="1">
+          <mxGeometry x="2515" y="990" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-60" value="#3 - E a vendedora Maria incluiu o mesmo produto para ficar com a comissão" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="1350" width="960" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-61" value="// collection - simulador&lt;br&gt;// simulacao do cliene&lt;span&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;{&lt;br&gt;&amp;nbsp; &quot;_id&quot;: xxxxxxxxxxxxx&lt;br&gt;&lt;div&gt;&amp;nbsp; &quot;filial&quot;: 1000,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;bandeira&quot;: &quot;CASAS_BAHIA&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;canalOrigem&quot;: &quot;ViaMais_Loja&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;empresa&quot;: 21,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&quot;codigoCliente&quot;:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;codigo_pedro_xpto&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;,&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;produtos&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;matriculaVendedor&quot;: 0123456,&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;sku&quot;: 905682,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;nomeProduto&quot;: &quot;Geladeira Consul&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;codigoSetor&quot;: 10,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;quantidade&quot;: 1,&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#00ff00&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;habilitado&quot;: true&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;matriculaVendedor&quot;: 0321654,&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;sku&quot;: 754622,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;nomeProduto&quot;: &quot;Batedeira Tramontina&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;codigoSetor&quot;: 25,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;quantidade&quot;: 1,&lt;/div&gt;&lt;font color=&quot;#00ff00&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;habilitado&quot;: true&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &lt;font color=&quot;#00ff00&quot;&gt;&quot;status&quot;: &quot;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 255 , 0)&quot;&gt;EM_ANDAMENTO&lt;/span&gt;&lt;font color=&quot;#00ff00&quot;&gt;&quot;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=#6c8ebf;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fillColor=#666666;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="1410" width="340" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-62" value="V. Maria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2480" y="1600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-63" value="C. Pedro" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="1600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-64" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/bubble-128.png" vertex="1" parent="1">
+          <mxGeometry x="2515" y="1550" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-65" value="* Porém o nosso sistema não gosta dessas malandragens e então apenas desativou (habilitado = false) o produto quando ela removeu e ativou (habilitado = true) quando ela incluiu novamente, mantendo o produto atrelado ao outro vendedor" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="1415" width="480" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-66" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Courier New;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="229.66" y="1850" as="sourcePoint" />
+            <mxPoint x="230.16" y="1970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9uaR8edSKQL9QuCyxGl3-67" value="" style="shape=flexArrow;endArrow=classic;html=1;fontFamily=Courier New;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2020" y="1810" as="sourcePoint" />
+            <mxPoint x="1910" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Yxj-u1p5EvUpkLLPbLbx" name="v1.1">
+    <mxGraphModel dx="4097" dy="2303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-2" target="MVZUPL-NXaWabCWSiiZG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-2" value="POST&lt;br&gt;/carrinhos/consultar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-4" target="MVZUPL-NXaWabCWSiiZG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="175" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-6" target="MVZUPL-NXaWabCWSiiZG-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-6" value="validar entrada" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-7" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-8" target="MVZUPL-NXaWabCWSiiZG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-8" value="existe &lt;br&gt;cliente?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="140" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-10" target="MVZUPL-NXaWabCWSiiZG-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-10" value="consultar carrinho vendedor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="770" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0A0808;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="175" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-12" value="#1 - Consultar carrinho do vendedor" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="105" width="295" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-13" value="find mongo:&lt;br&gt;&lt;br&gt;- matriculaVendedor&lt;br&gt;- codigoFilial&lt;br&gt;- bandeira&lt;br&gt;- status: ABERTO" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="770" y="60" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-15" target="MVZUPL-NXaWabCWSiiZG-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-15" value="POST&lt;br&gt;/carrinhos/consultar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-17" target="MVZUPL-NXaWabCWSiiZG-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-17" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="445" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-19" target="MVZUPL-NXaWabCWSiiZG-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-19" value="validar entrada" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-20" value="S" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-21" target="MVZUPL-NXaWabCWSiiZG-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-21" value="existe &lt;br&gt;cliente?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="410" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-23" target="MVZUPL-NXaWabCWSiiZG-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-23" value="consultar carrinho ativo do cliente" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="770" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-24" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0A0808;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="445" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-25" value="#2 - Consultar carrinho do vendedor passando o cliente &lt;br&gt;&amp;nbsp; - carrinho do vendedor não identificado&lt;br&gt;&amp;nbsp; - cliente NAO POSSUI carrinho aberto&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="345" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-26" value="find mongo:&lt;br&gt;&lt;br&gt;- cliente&lt;br&gt;- codigoFilial&lt;br&gt;- bandeira&lt;br&gt;- status: ABERTO" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="770" y="320" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-28" target="MVZUPL-NXaWabCWSiiZG-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-28" value="Identificar cliente no carrinho do vendedor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-29" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-30" target="MVZUPL-NXaWabCWSiiZG-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-30" value="existe &lt;br&gt;carrinho?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="410" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-32" target="MVZUPL-NXaWabCWSiiZG-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-32" value="retornar carrinho identificado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-34" target="MVZUPL-NXaWabCWSiiZG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-34" value="retornar carrinho vendedor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-36" target="MVZUPL-NXaWabCWSiiZG-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-36" value="POST&lt;br&gt;/carrinhos/consultar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-38" target="MVZUPL-NXaWabCWSiiZG-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-38" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="715" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-40" target="MVZUPL-NXaWabCWSiiZG-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-40" value="validar entrada" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-41" value="S" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-42" target="MVZUPL-NXaWabCWSiiZG-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-42" value="existe &lt;br&gt;cliente?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="680" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-44" target="MVZUPL-NXaWabCWSiiZG-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-44" value="consultar carrinho ativo do cliente" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="770" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-45" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0A0808;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="715" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-46" value="#3 - Consultar carrinho do vendedor passando o cliente&lt;br&gt;&amp;nbsp; - carrinho do vendedor não identificado&lt;br&gt;&amp;nbsp; - cliente POSSUI carrinho aberto" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="630" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-47" value="find mongo:&lt;br&gt;&lt;br&gt;- cliente&lt;br&gt;- codigoFilial&lt;br&gt;- bandeira&lt;br&gt;- status: ABERTO" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="770" y="590" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-48" value="Identificar cliente no carrinho do vendedor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-49" value="S" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-50" target="MVZUPL-NXaWabCWSiiZG-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-50" value="existe &lt;br&gt;carrinho?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="680" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-52" target="MVZUPL-NXaWabCWSiiZG-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-52" value="retornar carrinho mergeado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-54" target="MVZUPL-NXaWabCWSiiZG-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-54" value="Excluir desconto&lt;br&gt;(?)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-56" target="MVZUPL-NXaWabCWSiiZG-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-56" value="Alterar status&lt;br&gt;(data)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-48" target="MVZUPL-NXaWabCWSiiZG-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1550" y="730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-59" target="MVZUPL-NXaWabCWSiiZG-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-59" value="Desatviar carrinho do cliente" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-61" target="MVZUPL-NXaWabCWSiiZG-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-61" value="Copiar produtos carrinho antigo cliente&lt;br&gt;(merge)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1720" y="700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-63" target="MVZUPL-NXaWabCWSiiZG-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-63" value="POST&lt;br&gt;/carrinhos/consultar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-65" target="MVZUPL-NXaWabCWSiiZG-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-65" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="995" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-67" target="MVZUPL-NXaWabCWSiiZG-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-67" value="validar entrada" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-68" value="S" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-69" target="MVZUPL-NXaWabCWSiiZG-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-69" value="existe &lt;br&gt;cliente?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="960" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-71" target="MVZUPL-NXaWabCWSiiZG-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-71" value="consultar carrinho vendedor + cliente&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="770" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-72" value="find mongo:&lt;br&gt;&lt;br&gt;- matriculaVendedor&lt;br&gt;- cliente&lt;br&gt;- codigoFilial&lt;br&gt;- bandeira&lt;br&gt;- status: ABERTO" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="770" y="870" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-73" value="S" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-74" target="MVZUPL-NXaWabCWSiiZG-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-74" value="existe &lt;br&gt;carrinho?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="960" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-75" value="#4 - Consultar carrinho do vendedor passando o cliente&lt;br&gt;&amp;nbsp; - carrinho do vendedor já identificado com o cliente informado" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="900" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-76" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#0A0808;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="995" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-78" target="MVZUPL-NXaWabCWSiiZG-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-78" value="retornar carrinho mergeado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-80" target="MVZUPL-NXaWabCWSiiZG-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-80" value="Excluir desconto&lt;br&gt;(?)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVZUPL-NXaWabCWSiiZG-82" target="MVZUPL-NXaWabCWSiiZG-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVZUPL-NXaWabCWSiiZG-82" value="Alterar status&lt;br&gt;(data)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="J8FQTKoWVw-aCeoMksY5" name="vendedor-cliente">
     <mxGraphModel dx="1434" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
