@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" modified="2023-04-27T12:22:47.141Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="D7p3b7fuZPYOfm30K8zw" version="21.2.3" type="github">
+  <diagram id="XMmNOHuR2Kokbu4PCB-p" name="Expurgo Carrinho">
+    <mxGraphModel dx="1434" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-0" />
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-1" parent="bfqfrZXQHYkN6Tl1LAsR-0" />
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-15" value="&lt;span style=&quot;color: rgb(8 , 9 , 10) ; font-size: 12px ; background-color: rgb(255 , 255 , 255)&quot;&gt;#1 - Remover depois de um determinado tempo&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fontSize=12;fontStyle=1;spacingLeft=10;" parent="bfqfrZXQHYkN6Tl1LAsR-1" vertex="1">
+          <mxGeometry x="180" y="270" width="650" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="bfqfrZXQHYkN6Tl1LAsR-1" source="bfqfrZXQHYkN6Tl1LAsR-2" target="bfqfrZXQHYkN6Tl1LAsR-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-2" value="Carrinho" style="rounded=0;whiteSpace=wrap;html=1;" parent="bfqfrZXQHYkN6Tl1LAsR-1" vertex="1">
+          <mxGeometry x="240" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="bfqfrZXQHYkN6Tl1LAsR-1" source="bfqfrZXQHYkN6Tl1LAsR-3" target="bfqfrZXQHYkN6Tl1LAsR-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="375" />
+              <mxPoint x="810" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-3" value="Remover docs" style="rounded=0;whiteSpace=wrap;html=1;" parent="bfqfrZXQHYkN6Tl1LAsR-1" vertex="1">
+          <mxGeometry x="650" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="bfqfrZXQHYkN6Tl1LAsR-1" source="bfqfrZXQHYkN6Tl1LAsR-5" target="bfqfrZXQHYkN6Tl1LAsR-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-5" value="criadoEm &lt;br&gt;&amp;gt; 3 meses&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;" parent="bfqfrZXQHYkN6Tl1LAsR-1" vertex="1">
+          <mxGeometry x="440" y="330" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="bfqfrZXQHYkN6Tl1LAsR-1" source="bfqfrZXQHYkN6Tl1LAsR-9" target="bfqfrZXQHYkN6Tl1LAsR-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="480" />
+              <mxPoint x="200" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-9" value="Wait&lt;br&gt;60s" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="bfqfrZXQHYkN6Tl1LAsR-1" vertex="1">
+          <mxGeometry x="480" y="455" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-13" value="db.carrinhos_test.createIndex({ &quot;criadoEm&quot;: 1 }, { expireAfterSeconds: 90*86400 }) // 90 days" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="bfqfrZXQHYkN6Tl1LAsR-1" vertex="1">
+          <mxGeometry x="250" y="430" width="510" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-16" value="O problema desta solução é que, se precisar alterar este perído depois que a collection possuir vários documentos, isso pode demorar e causar impacto de performance na aplicação" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=12;align=center;size=12;spacing=5;fillColor=#fff2cc;strokeColor=#d6b656;" parent="bfqfrZXQHYkN6Tl1LAsR-1" vertex="1">
+          <mxGeometry x="860" y="315" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-17" value="&lt;span style=&quot;color: rgb(8 , 9 , 10) ; font-size: 12px ; background-color: rgb(255 , 255 , 255)&quot;&gt;#2 - Especificar uma data de expiração&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fontSize=12;fontStyle=1;spacingLeft=10;" parent="bfqfrZXQHYkN6Tl1LAsR-1" vertex="1">
+          <mxGeometry x="180" y="590" width="650" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="bfqfrZXQHYkN6Tl1LAsR-1" source="bfqfrZXQHYkN6Tl1LAsR-19" target="bfqfrZXQHYkN6Tl1LAsR-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-19" value="Carrinho" style="rounded=0;whiteSpace=wrap;html=1;" parent="bfqfrZXQHYkN6Tl1LAsR-1" vertex="1">
+          <mxGeometry x="240" y="665" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="bfqfrZXQHYkN6Tl1LAsR-1" source="bfqfrZXQHYkN6Tl1LAsR-21" target="bfqfrZXQHYkN6Tl1LAsR-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="695" />
+              <mxPoint x="810" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-21" value="Remover docs" style="rounded=0;whiteSpace=wrap;html=1;" parent="bfqfrZXQHYkN6Tl1LAsR-1" vertex="1">
+          <mxGeometry x="650" y="665" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="bfqfrZXQHYkN6Tl1LAsR-1" source="bfqfrZXQHYkN6Tl1LAsR-23" target="bfqfrZXQHYkN6Tl1LAsR-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-23" value="expiraEm &lt;br&gt;=== hoje&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;" parent="bfqfrZXQHYkN6Tl1LAsR-1" vertex="1">
+          <mxGeometry x="440" y="650" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="bfqfrZXQHYkN6Tl1LAsR-1" source="bfqfrZXQHYkN6Tl1LAsR-25" target="bfqfrZXQHYkN6Tl1LAsR-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="800" />
+              <mxPoint x="200" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-25" value="Wait&lt;br&gt;60s" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="bfqfrZXQHYkN6Tl1LAsR-1" vertex="1">
+          <mxGeometry x="480" y="775" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-26" value="db.carrinhos_test.createIndex({ &quot;expiraEm&quot;: 1 }, { expireAfterSeconds: 0 })" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="bfqfrZXQHYkN6Tl1LAsR-1" vertex="1">
+          <mxGeometry x="235" y="750" width="540" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bfqfrZXQHYkN6Tl1LAsR-27" value="Para este cenário, precisaremos criar o doc de carrinho com um novo atributo &lt;b&gt;expiraEm&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=12;align=center;size=12;spacing=5;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="bfqfrZXQHYkN6Tl1LAsR-1" vertex="1">
+          <mxGeometry x="870" y="650" width="160" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
