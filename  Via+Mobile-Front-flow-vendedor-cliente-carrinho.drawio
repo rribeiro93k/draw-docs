@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T18:36:32.661Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="HJxUoMw6TnK3QbYdBg5V" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-18T18:42:23.463Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ZNR7jna6BRzRPqgl2br-" version="21.6.6" type="github" pages="4">
   <diagram id="Ah3j89J9dZjGGa0gmjgg" name="v1">
     <mxGraphModel dx="1434" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -1030,7 +1030,7 @@
         <mxCell id="-DI5YKNw4406hn3TdQVi-209" value="Fluxo&amp;nbsp;merge" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1760" y="2447" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-DI5YKNw4406hn3TdQVi-225" value="POST /carrinhos/{idCarrinho}/transferir&lt;br&gt;&lt;br&gt;request: { idCarrinhoCliente }" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="-DI5YKNw4406hn3TdQVi-225" value="POST /carrinhos/{idCarrinho}/transferir&lt;br&gt;&lt;br&gt;request: { transferirParaIdCarrinho: &#39;xpto&#39; }" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1760" y="2330" width="600" height="106" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-227" value="POST /carrinhos/consultar&lt;br&gt;&lt;br&gt;request: { vendedor?, cliente? }" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
