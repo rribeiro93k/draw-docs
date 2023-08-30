@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T19:21:23.090Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="FIwpYQOzrmNCvzxTdfBe" version="21.7.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-30T19:25:48.080Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="C16YjHEkgxmD96MIxV8D" version="21.7.0" type="github" pages="4">
   <diagram id="Ah3j89J9dZjGGa0gmjgg" name="v1">
     <mxGraphModel dx="1434" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -1112,6 +1112,9 @@
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-264" value="Fluxo identificar&lt;br&gt;&lt;br&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;http | service&lt;/i&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="642.5" y="2180" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V_dBUfyVgEAMk5NKoYt_-1" value="TODO: Mapear flow criar carrinho" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1753.25" y="3330" width="440" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
