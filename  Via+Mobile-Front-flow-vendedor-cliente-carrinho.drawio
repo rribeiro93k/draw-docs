@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T19:25:48.080Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="C16YjHEkgxmD96MIxV8D" version="21.7.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-01T20:40:36.780Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="2daai22Ip9FrkVSUyECq" version="21.7.2" type="github" pages="5">
   <diagram id="Ah3j89J9dZjGGa0gmjgg" name="v1">
     <mxGraphModel dx="1434" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -690,7 +690,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_HaypLTg0SbPN9KkD0Cb" name="v2">
-    <mxGraphModel dx="2575" dy="1231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1113,8 +1113,40 @@
         <mxCell id="-DI5YKNw4406hn3TdQVi-264" value="Fluxo identificar&lt;br&gt;&lt;br&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;http | service&lt;/i&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="642.5" y="2180" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="V_dBUfyVgEAMk5NKoYt_-1" value="TODO: Mapear flow criar carrinho" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="V_dBUfyVgEAMk5NKoYt_-1" value="TODO: Mapear flow criar carrinho" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1753.25" y="3330" width="440" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="svLiV0yn4munKS6qa1yG" name="Page-5">
+    <mxGraphModel dx="1395" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iFHD6gchKYGylx1eL2IE-1" value="Carrinho" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="190" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iFHD6gchKYGylx1eL2IE-2" value="Negociação" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="910" y="190" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iFHD6gchKYGylx1eL2IE-3" value="Checkout" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1330" y="190" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iFHD6gchKYGylx1eL2IE-4" value="Mercantil" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="450" y="280" width="1120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iFHD6gchKYGylx1eL2IE-6" value="Trocar enum subtipo para string" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="325" width="195" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="iFHD6gchKYGylx1eL2IE-7" value="Serviço tecnico" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="110" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="iFHD6gchKYGylx1eL2IE-8" value="Trocar enum subtipo para string" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1337.5" y="320" width="195" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="iFHD6gchKYGylx1eL2IE-9" value="Incluir novo tipo e modelo de dados para persistir no carrinho" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="440" width="195" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
