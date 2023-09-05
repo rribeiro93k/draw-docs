@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T21:07:01.691Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="IdUvAA_P6fe2iOcqm63L" version="21.7.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-09-05T21:08:59.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ixYNZ3ewASiJB5OiSZpQ" version="21.7.2" type="github" pages="6">
   <diagram id="Ah3j89J9dZjGGa0gmjgg" name="v1">
     <mxGraphModel dx="1434" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -1120,7 +1120,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="svLiV0yn4munKS6qa1yG" name="Page-5">
-    <mxGraphModel dx="1463" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1755" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1140,13 +1140,13 @@
           <mxGeometry x="487.5" y="325" width="195" height="35" as="geometry" />
         </mxCell>
         <mxCell id="iFHD6gchKYGylx1eL2IE-7" value="Serviço tecnico" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="260" y="730" width="110" height="115" as="geometry" />
+          <mxGeometry x="260" y="790" width="110" height="115" as="geometry" />
         </mxCell>
         <mxCell id="iFHD6gchKYGylx1eL2IE-8" value="Trocar enum subtipo para string" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1447.5" y="320" width="195" height="35" as="geometry" />
         </mxCell>
         <mxCell id="iFHD6gchKYGylx1eL2IE-9" value="Incluir novo tipo e modelo de dados para persistir no carrinho" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="487.5" y="770" width="195" height="35" as="geometry" />
+          <mxGeometry x="495" y="830" width="195" height="35" as="geometry" />
         </mxCell>
         <mxCell id="iByAQRstV4I89EHP8uN4-1" value="Garantia" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="260" y="440" width="110" height="115" as="geometry" />
@@ -1186,6 +1186,9 @@
         </mxCell>
         <mxCell id="iByAQRstV4I89EHP8uN4-14" value="Verifica se sacola tem pendencias pra fechar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1445" y="420" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="iByAQRstV4I89EHP8uN4-15" value="Expurgo carrinho" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="511.25" y="170" width="162.5" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
