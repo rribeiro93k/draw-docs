@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T21:08:59.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ixYNZ3ewASiJB5OiSZpQ" version="21.7.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-09-05T21:09:08.453Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="BK14j_zXRR2ZO-48Isvg" version="21.7.2" type="github" pages="6">
   <diagram id="Ah3j89J9dZjGGa0gmjgg" name="v1">
     <mxGraphModel dx="1434" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -1187,7 +1187,7 @@
         <mxCell id="iByAQRstV4I89EHP8uN4-14" value="Verifica se sacola tem pendencias pra fechar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1445" y="420" width="200" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="iByAQRstV4I89EHP8uN4-15" value="Expurgo carrinho" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iByAQRstV4I89EHP8uN4-15" value="*Expurgo carrinho" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="511.25" y="170" width="162.5" height="35" as="geometry" />
         </mxCell>
       </root>
