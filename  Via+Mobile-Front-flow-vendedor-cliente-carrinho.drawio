@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T18:47:37.072Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vQfhoqbvVcE3f6H_AyaR" version="21.7.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-09-19T18:48:40.146Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="u6KgkF6TRLPGaXylD00u" version="21.7.5" type="github" pages="5">
   <diagram id="Ah3j89J9dZjGGa0gmjgg" name="v1">
     <mxGraphModel dx="3713" dy="2000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -1177,7 +1177,7 @@
           <mxGeometry x="160" y="1210" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lZJWfo4KrK71DdFRIV8j-41" value="ELK" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1108.75" y="440" width="90" height="40" as="geometry" />
+          <mxGeometry x="1120" y="455" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lZJWfo4KrK71DdFRIV8j-43" value="Entrega" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="280" width="110" height="20" as="geometry" />
@@ -1189,7 +1189,7 @@
           <mxGeometry x="480" y="591.25" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="lZJWfo4KrK71DdFRIV8j-55" value="carrinho" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png;" parent="1" vertex="1">
-          <mxGeometry x="1127.5" y="581.25" width="52.5" height="52.5" as="geometry" />
+          <mxGeometry x="1133.75" y="581.25" width="52.5" height="52.5" as="geometry" />
         </mxCell>
         <mxCell id="6BFIeQj4Wh5G2oif8QYd-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/1200px-Microsoft_Azure_Logo.svg.png;" parent="1" vertex="1">
           <mxGeometry x="770" y="250" width="103.75" height="30" as="geometry" />
