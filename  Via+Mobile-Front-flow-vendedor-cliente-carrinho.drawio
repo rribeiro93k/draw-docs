@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T18:46:43.832Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="TYzAOI1qWFIo2oYpvAua" version="21.7.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-09-19T18:47:37.072Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vQfhoqbvVcE3f6H_AyaR" version="21.7.5" type="github" pages="5">
   <diagram id="Ah3j89J9dZjGGa0gmjgg" name="v1">
     <mxGraphModel dx="3713" dy="2000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -1123,7 +1123,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VULwcNgX6gZHUI3F-5oG" name="Page-6">
-    <mxGraphModel dx="1238" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1258" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1133,7 +1133,7 @@
         <mxCell id="L_5_36Pr1vDkIDaW0E5s-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="873.75" y="522.81" width="155.71" height="194.37" as="geometry" />
         </mxCell>
-        <mxCell id="lZJWfo4KrK71DdFRIV8j-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;dashed=1;" parent="1" target="lZJWfo4KrK71DdFRIV8j-7" edge="1">
+        <mxCell id="lZJWfo4KrK71DdFRIV8j-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="lZJWfo4KrK71DdFRIV8j-46" target="lZJWfo4KrK71DdFRIV8j-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="710" y="500" as="sourcePoint" />
           </mxGeometry>
@@ -1159,7 +1159,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lZJWfo4KrK71DdFRIV8j-7" value="external services" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="585" y="170" width="180" height="170" as="geometry" />
+          <mxGeometry x="580" y="170" width="180" height="170" as="geometry" />
         </mxCell>
         <mxCell id="lZJWfo4KrK71DdFRIV8j-8" value="Produto" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="190" width="110" height="20" as="geometry" />
@@ -1171,7 +1171,7 @@
           <mxGeometry x="620" y="250" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lZJWfo4KrK71DdFRIV8j-16" value="- Consumo direto em serviços externos&lt;br&gt;- Qualquer alteração de contrato o front precisa se readaptar&lt;br&gt;- Transferência (REST) de muitos dados não utilizados" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=9;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="300" y="410" width="360" height="70" as="geometry" />
+          <mxGeometry x="225" y="400" width="360" height="70" as="geometry" />
         </mxCell>
         <mxCell id="lZJWfo4KrK71DdFRIV8j-20" value="Carrinho App 2.0 [TO BE]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="160" y="1210" width="250" height="30" as="geometry" />
