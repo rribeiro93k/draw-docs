@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-09-20T19:14:41.253Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="oGKb-TshUc2uKI0e-Eij" version="21.7.5" type="device" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-09-20T20:48:34.091Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Ex8xVN7Rrkbw71OKGvL0" version="21.7.5" type="github" pages="5">
   <diagram id="Ah3j89J9dZjGGa0gmjgg" name="v1">
     <mxGraphModel dx="9213" dy="5620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -520,7 +520,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_HaypLTg0SbPN9KkD0Cb" name="v2">
-    <mxGraphModel dx="1382" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="2186" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -694,10 +694,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-125" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="80" y="2805" width="40" height="40" as="geometry" />
+          <mxGeometry x="200" y="2809" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-127" value="consultar carrinho&lt;br&gt;{ cliente }" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="390" y="2535" width="150" height="60" as="geometry" />
+          <mxGeometry x="510" y="2539" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-130" value="S" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=20;" parent="1" source="-DI5YKNw4406hn3TdQVi-128" target="-DI5YKNw4406hn3TdQVi-127" edge="1">
           <mxGeometry x="-0.3931" relative="1" as="geometry">
@@ -710,12 +710,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-128" value="Existe cliente&lt;br&gt;no contexto?" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;spacing=9;" parent="1" vertex="1">
-          <mxGeometry x="220" y="2755" width="192.5" height="140" as="geometry" />
+          <mxGeometry x="340" y="2759" width="192.5" height="140" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-127" target="-DI5YKNw4406hn3TdQVi-135" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1019.9999999999995" y="2545" as="sourcePoint" />
-            <mxPoint x="1100" y="2545" as="targetPoint" />
+            <mxPoint x="1139.9999999999995" y="2549" as="sourcePoint" />
+            <mxPoint x="1220" y="2549" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-149" value="S" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" parent="1" source="-DI5YKNw4406hn3TdQVi-135" target="-DI5YKNw4406hn3TdQVi-148" edge="1">
@@ -723,16 +723,16 @@
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-202" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-135" target="-DI5YKNw4406hn3TdQVi-229" edge="1">
           <mxGeometry x="-0.5633" y="6" relative="1" as="geometry">
-            <mxPoint x="800" y="2420" as="targetPoint" />
+            <mxPoint x="920" y="2424" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-135" value="Cliente possui &lt;br&gt;carrinho aberto?" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;spacing=9;" parent="1" vertex="1">
-          <mxGeometry x="630" y="2495" width="192.5" height="140" as="geometry" />
+          <mxGeometry x="750" y="2499" width="192.5" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="-DI5YKNw4406hn3TdQVi-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-264" target="-DI5YKNw4406hn3TdQVi-203" edge="1">
+        <mxCell id="-DI5YKNw4406hn3TdQVi-204" value="0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-264" target="-DI5YKNw4406hn3TdQVi-203" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1047.5" y="2131" as="sourcePoint" />
+            <mxPoint x="1168.5" y="2135" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-156" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" parent="1" source="-DI5YKNw4406hn3TdQVi-148" target="-DI5YKNw4406hn3TdQVi-232" edge="1">
@@ -744,171 +744,153 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-148" value="Carrinho cliente é com &lt;br&gt;vendedor atual?" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;spacing=9;" parent="1" vertex="1">
-          <mxGeometry x="920" y="2496" width="192.5" height="140" as="geometry" />
+          <mxGeometry x="1040" y="2500" width="192.5" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="-DI5YKNw4406hn3TdQVi-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-155" target="-DI5YKNw4406hn3TdQVi-206" edge="1">
+        <mxCell id="-DI5YKNw4406hn3TdQVi-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="N5qyBVYvWZqJE2b_7YSL-3" target="-DI5YKNw4406hn3TdQVi-206" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N5qyBVYvWZqJE2b_7YSL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-DI5YKNw4406hn3TdQVi-155" target="N5qyBVYvWZqJE2b_7YSL-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-155" value="Fluxo &lt;br&gt;merge&lt;br&gt;&lt;br&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;http request&lt;/i&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="931.25" y="2911" width="170" height="80" as="geometry" />
+          <mxGeometry x="1051.25" y="2915" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-DI5YKNw4406hn3TdQVi-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-161" target="-DI5YKNw4406hn3TdQVi-162" edge="1">
+        <mxCell id="-DI5YKNw4406hn3TdQVi-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-161" target="N5qyBVYvWZqJE2b_7YSL-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-DI5YKNw4406hn3TdQVi-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-161" target="-DI5YKNw4406hn3TdQVi-163" edge="1">
+        <mxCell id="-DI5YKNw4406hn3TdQVi-161" value="transferir produtos status habilitado do idCarrinhoAntigo &lt;br&gt;para idCarrinhoNovo" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="2330" y="2468.75" width="170" height="106.25" as="geometry" />
+        </mxCell>
+        <mxCell id="-DI5YKNw4406hn3TdQVi-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="N5qyBVYvWZqJE2b_7YSL-7" target="-DI5YKNw4406hn3TdQVi-172" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-DI5YKNw4406hn3TdQVi-161" value="executar pipeline merge" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2060" y="2467.5" width="170" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="-DI5YKNw4406hn3TdQVi-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-DI5YKNw4406hn3TdQVi-162" target="-DI5YKNw4406hn3TdQVi-172" edge="1">
+        <mxCell id="N5qyBVYvWZqJE2b_7YSL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-DI5YKNw4406hn3TdQVi-163" target="N5qyBVYvWZqJE2b_7YSL-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-DI5YKNw4406hn3TdQVi-162" value="fechar carrinho&lt;br&gt;&amp;nbsp;vendedor&lt;br&gt;(ou excluir?)" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2332.5" y="2467.5" width="170" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="-DI5YKNw4406hn3TdQVi-163" value="transferir produtos carrinho vendedor 123 para carrinho cliente" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2060" y="2563.5" width="170" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="-DI5YKNw4406hn3TdQVi-164" value="adicionar objeto histórico de merge no carrinho" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2060" y="2662.5" width="170" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="-DI5YKNw4406hn3TdQVi-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-163" target="-DI5YKNw4406hn3TdQVi-164" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2244.5" y="2692.5" as="sourcePoint" />
-            <mxPoint x="2399.5" y="2797.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-DI5YKNw4406hn3TdQVi-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-164" target="-DI5YKNw4406hn3TdQVi-167" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2135" y="2782.5" as="sourcePoint" />
-            <mxPoint x="2389.5" y="2927.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-DI5YKNw4406hn3TdQVi-167" value="..." style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2100" y="2752.5" width="90" height="34" as="geometry" />
+        <mxCell id="-DI5YKNw4406hn3TdQVi-163" value="define flag &lt;br&gt;transferido = true" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="2847.5" y="2486.62" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-170" target="-DI5YKNw4406hn3TdQVi-161" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2080" y="2502.5" as="targetPoint" />
+            <mxPoint x="2350" y="2498.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-170" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="1960" y="2482.5" width="40" height="40" as="geometry" />
+          <mxGeometry x="2230" y="2501.88" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-172" target="-DI5YKNw4406hn3TdQVi-174" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-172" value="return carrinho" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2600" y="2472.5" width="150" height="60" as="geometry" />
+          <mxGeometry x="3310" y="2492.5" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-174" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=30;fillColor=#303030;" parent="1" vertex="1">
-          <mxGeometry x="2820" y="2482.5" width="40" height="40" as="geometry" />
+          <mxGeometry x="3530" y="2501.62" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-177" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=30;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-178" target="-DI5YKNw4406hn3TdQVi-196" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2070" y="3021" as="targetPoint" />
+            <mxPoint x="2340" y="2950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-178" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="1960" y="3001" width="40" height="40" as="geometry" />
+          <mxGeometry x="2230" y="2930" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-179" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-196" target="7Gi67ZOoJuHHMh3OFSdN-3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2570" y="3021" as="sourcePoint" />
-            <mxPoint x="2670" y="3021" as="targetPoint" />
+            <mxPoint x="2840" y="2950" as="sourcePoint" />
+            <mxPoint x="2940" y="2950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-181" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=30;fillColor=#303030;" parent="1" vertex="1">
-          <mxGeometry x="2757.5" y="3001" width="40" height="40" as="geometry" />
+          <mxGeometry x="3027.5" y="2930" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="-DI5YKNw4406hn3TdQVi-183" target="-DI5YKNw4406hn3TdQVi-181" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-183" value="return carrinho" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2547.5" y="2991" width="150" height="60" as="geometry" />
+          <mxGeometry x="2817.5" y="2920" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-192" target="-DI5YKNw4406hn3TdQVi-194" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-192" value="return carrinho" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="2536" width="150" height="60" as="geometry" />
+          <mxGeometry x="1350" y="2540" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-194" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=30;fillColor=#303030;" parent="1" vertex="1">
-          <mxGeometry x="1450" y="2546" width="40" height="40" as="geometry" />
+          <mxGeometry x="1570" y="2550" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-196" value="consultar carrinho" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2050" y="2991" width="150" height="60" as="geometry" />
+          <mxGeometry x="2320" y="2920" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-197" value="consultar carrinho&lt;br&gt;{ vendedor }" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="390" y="3006.5" width="150" height="60" as="geometry" />
+          <mxGeometry x="462.5" y="3014.5" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-200" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=30;fillColor=#303030;" parent="1" vertex="1">
-          <mxGeometry x="682.5" y="3016.5" width="40" height="40" as="geometry" />
+          <mxGeometry x="755" y="3024.5" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-197" target="-DI5YKNw4406hn3TdQVi-200" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="816" y="3040" as="sourcePoint" />
+            <mxPoint x="888.5" y="3048" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-203" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=30;fillColor=#303030;" parent="1" vertex="1">
-          <mxGeometry x="912.5" y="2116" width="40" height="40" as="geometry" />
+          <mxGeometry x="1033.5" y="2120" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-206" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=30;fillColor=#303030;" parent="1" vertex="1">
-          <mxGeometry x="1180" y="2931" width="40" height="40" as="geometry" />
+          <mxGeometry x="1250" y="3146.25" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-208" value="Fluxo&amp;nbsp;consultar" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1760" y="2981" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="2030" y="2910" width="177.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-209" value="Fluxo&amp;nbsp;merge" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1760" y="2462.5" width="170" height="80" as="geometry" />
+          <mxGeometry x="2030" y="2481.62" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-225" value="POST /carrinhos/{idCarrinhoAntigo}/transferir/{IdCarrinhoNovo}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1760" y="2360" width="660" height="81.5" as="geometry" />
+          <mxGeometry x="2031" y="2330" width="660" height="81.5" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-227" value="POST /carrinhos/consultar" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1760" y="2761" width="440" height="100" as="geometry" />
+          <mxGeometry x="2030" y="2710" width="440" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-229" target="-DI5YKNw4406hn3TdQVi-264" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="727.5" y="2250" as="targetPoint" />
+            <mxPoint x="848.5" y="2254" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-229" value="consultar carrinho&lt;br&gt;{ vendedor }" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="650" y="2256" width="150" height="60" as="geometry" />
+          <mxGeometry x="771" y="2260" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-232" target="-DI5YKNw4406hn3TdQVi-155" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-232" value="consultar carrinho&lt;br&gt;{ vendedor }" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="941.25" y="2797.5" width="150" height="60" as="geometry" />
+          <mxGeometry x="1061.25" y="2801.5" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-234" value="Pensando que o vendedor sempre vai precisar do carrinho" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=11;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2377.5" y="3090" width="140" height="79.5" as="geometry" />
+          <mxGeometry x="2647.5" y="3019" width="140" height="79.5" as="geometry" />
         </mxCell>
-        <mxCell id="-DI5YKNw4406hn3TdQVi-235" value="GET BFF /carrinhos/consultar&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="85" y="2040" width="575" height="100" as="geometry" />
+        <mxCell id="-DI5YKNw4406hn3TdQVi-235" value="BFF &lt;br&gt;GET&amp;nbsp; /carrinhos/consultar" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="42.5" y="2647.5" width="297.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-244" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="777.5" y="2216" width="175" height="110" as="geometry" />
+          <mxGeometry x="898.5" y="2220" width="175" height="110" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-228" value="Fluxo &lt;br&gt;consultar&lt;br&gt;&lt;br&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;http request&lt;/i&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="-DI5YKNw4406hn3TdQVi-244" vertex="1">
           <mxGeometry y="30" width="175" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-245" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="347.5" y="2432.5" width="175" height="110" as="geometry" />
+          <mxGeometry x="467.5" y="2436.5" width="175" height="110" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-190" value="Fluxo &lt;br&gt;consultar&lt;br&gt;&lt;br&gt;&lt;i&gt;http request&lt;/i&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="-DI5YKNw4406hn3TdQVi-245" vertex="1">
           <mxGeometry y="30" width="175" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-246" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="430" y="2903.5" width="177.5" height="111" as="geometry" />
+          <mxGeometry x="550" y="2907.5" width="177.5" height="111" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-150" value="Fluxo &lt;br&gt;consultar&lt;br&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;http request&lt;/i&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="-DI5YKNw4406hn3TdQVi-246" vertex="1">
-          <mxGeometry y="31" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="-47.5" y="35" width="177.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-251" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1070" y="2752.5" width="177.5" height="111" as="geometry" />
+          <mxGeometry x="1190" y="2756.5" width="177.5" height="111" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-252" value="Fluxo &lt;br&gt;consultar&lt;br&gt;&lt;br&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;http request&lt;/i&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="-DI5YKNw4406hn3TdQVi-251" vertex="1">
           <mxGeometry y="31" width="177.5" height="80" as="geometry" />
@@ -917,69 +899,66 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-254" value="return carrinho" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2317.5" y="2140" width="150" height="60" as="geometry" />
+          <mxGeometry x="2587.5" y="2136.25" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-259" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-DI5YKNw4406hn3TdQVi-255" target="-DI5YKNw4406hn3TdQVi-254" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-255" value="identificar cliente no carrinho" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2060" y="2135" width="170" height="70" as="geometry" />
+          <mxGeometry x="2330" y="2131.25" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-256" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=30;fillColor=#303030;" parent="1" vertex="1">
-          <mxGeometry x="2547.5" y="2150" width="40" height="40" as="geometry" />
+          <mxGeometry x="2817.5" y="2146.25" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-257" value="Fluxo identificar" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1760" y="2130" width="170" height="80" as="geometry" />
+          <mxGeometry x="2030" y="2126.25" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-DI5YKNw4406hn3TdQVi-261" value="POST /carrinhos/{idCarrinho}/identificar&lt;br&gt;&lt;br&gt;request: { cliente }" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1760" y="1990" width="600" height="106" as="geometry" />
-        </mxCell>
-        <mxCell id="-DI5YKNw4406hn3TdQVi-263" value="A ideia é o front disparar essa chamada async e não se preocupar com o resultado (o ideal é que dê certo porém não é uma coisa que impacta o fluxo de venda, no máximo o carrinho vai ficar sem identificação de cliente por nome)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=16;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="2193.25" y="1981.5" width="180" height="143" as="geometry" />
+        <mxCell id="-DI5YKNw4406hn3TdQVi-261" value="POST /carrinhos/{idCarrinho}/identificar" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="2030" y="1950" width="600" height="63.75" as="geometry" />
         </mxCell>
         <mxCell id="-DI5YKNw4406hn3TdQVi-264" value="Fluxo identificar&lt;br&gt;&lt;br&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;http request&lt;/i&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="640" y="2096" width="170" height="80" as="geometry" />
+          <mxGeometry x="761" y="2100" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=30;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="86VfkSiz01hcMzgRxgEs-34" target="86VfkSiz01hcMzgRxgEs-39" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2120" y="3490" as="targetPoint" />
+            <mxPoint x="2390" y="3339" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-34" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="1960" y="3470" width="40" height="40" as="geometry" />
+          <mxGeometry x="2230" y="3319" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-35" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=30;fillColor=#303030;" parent="1" vertex="1">
-          <mxGeometry x="2527.5" y="3470" width="40" height="40" as="geometry" />
+          <mxGeometry x="2797.5" y="3319" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-36" value="Fluxo adicionar item" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1760" y="3450" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="2030" y="3299" width="177.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="86VfkSiz01hcMzgRxgEs-37" value="&lt;br&gt;&lt;font color=&quot;#cc0000&quot;&gt;JA EXISTE&amp;nbsp;PATCH&amp;nbsp;&lt;/font&gt;&amp;nbsp;&lt;a style=&quot;color: inherit; background-color: transparent; font-family: monospace; font-size: medium; box-sizing: border-box; text-decoration: inherit; cursor: pointer; display: inline !important;&quot; href=&quot;https://vv-viamais-carrinho-api-sit.via.com.br/webjars/swagger-ui/index.html?url=/v3/api-docs&amp;amp;validatorUrl=#/CarrinhoAPI%20-%20Item/patch_carrinhos__idCarrinho__itens&quot; class=&quot;nostyle&quot;&gt;/carrinhos​/{idCarrinho}​/itens&lt;/a&gt;&lt;br&gt;&lt;font color=&quot;#ffff00&quot;&gt;...... precisa?&lt;/font&gt;&lt;br&gt;POST /carrinhos/{idCarrinho}/itens&lt;br&gt;request: [{ produto }]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1760" y="3310" width="617.5" height="100" as="geometry" />
+        <mxCell id="86VfkSiz01hcMzgRxgEs-37" value="&lt;br&gt;POST /carrinhos/{idCarrinho}/itens&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="2031" y="3180" width="617.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="86VfkSiz01hcMzgRxgEs-39" target="86VfkSiz01hcMzgRxgEs-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-39" value="adicionar produto(s)" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2085" y="3460" width="150" height="60" as="geometry" />
+          <mxGeometry x="2355" y="3309" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="86VfkSiz01hcMzgRxgEs-41" target="86VfkSiz01hcMzgRxgEs-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-41" value="return carrinho" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2307.5" y="3460" width="150" height="60" as="geometry" />
+          <mxGeometry x="2577.5" y="3309" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="86VfkSiz01hcMzgRxgEs-51" target="-DI5YKNw4406hn3TdQVi-255" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-51" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="1952.5" y="2150" width="40" height="40" as="geometry" />
+          <mxGeometry x="2222.5" y="2146.25" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-54" value="Via+" style="whiteSpace=wrap;html=1;fontSize=14;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="260" y="3750" width="371.25" height="202.5" as="geometry" />
+          <mxGeometry x="282.19" y="4390" width="371.25" height="202.5" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-55" value="produto-api" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="285" y="3785" width="150" height="60" as="geometry" />
+          <mxGeometry x="307.19" y="4425" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="86VfkSiz01hcMzgRxgEs-58" target="86VfkSiz01hcMzgRxgEs-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -988,52 +967,52 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-58" value="front" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="130" y="4060" width="150" height="60" as="geometry" />
+          <mxGeometry x="152.19" y="4700" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-59" value="estoque-api" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="450" y="3785" width="150" height="60" as="geometry" />
+          <mxGeometry x="472.19" y="4425" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-60" value="precificacao-api" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="285" y="3860" width="150" height="60" as="geometry" />
+          <mxGeometry x="307.19" y="4500" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="86VfkSiz01hcMzgRxgEs-62" target="86VfkSiz01hcMzgRxgEs-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-62" value="carrinho-api" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="130" y="3599" width="150" height="60" as="geometry" />
+          <mxGeometry x="152.19" y="4239" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-63" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="175" y="3440" width="60" height="80" as="geometry" />
+          <mxGeometry x="197.19" y="4080" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-64" value="entrega-api" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="450" y="3860" width="150" height="60" as="geometry" />
+          <mxGeometry x="472.19" y="4500" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-65" value="Via+" style="whiteSpace=wrap;html=1;fontSize=14;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="1144.38" y="3717.5" width="371.25" height="202.5" as="geometry" />
+          <mxGeometry x="1166.5700000000002" y="4357.5" width="371.25" height="202.5" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="86VfkSiz01hcMzgRxgEs-68" target="86VfkSiz01hcMzgRxgEs-81" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-68" value="carrinho-front" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="981.0000000000001" y="4120" width="150" height="60" as="geometry" />
+          <mxGeometry x="1003.1900000000002" y="4760" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-69" value="estoque-api" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1334.38" y="3752.5" width="150" height="60" as="geometry" />
+          <mxGeometry x="1356.5700000000002" y="4392.5" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-70" value="precificacao-api" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1169.38" y="3752.5" width="150" height="60" as="geometry" />
+          <mxGeometry x="1191.5700000000002" y="4392.5" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="86VfkSiz01hcMzgRxgEs-72" target="86VfkSiz01hcMzgRxgEs-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-72" value="carrinho-api" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="872.5000000000001" y="3599" width="150" height="60" as="geometry" />
+          <mxGeometry x="894.6900000000002" y="4239" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-73" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="917.5000000000001" y="3440" width="60" height="80" as="geometry" />
+          <mxGeometry x="939.6900000000002" y="4080" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-74" value="entrega-api" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="3827.5" width="150" height="60" as="geometry" />
+          <mxGeometry x="1192.19" y="4467.5" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="86VfkSiz01hcMzgRxgEs-77" target="86VfkSiz01hcMzgRxgEs-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1042,70 +1021,70 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-77" value="carrinho-bff" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="872.5000000000001" y="3795.75" width="150" height="60" as="geometry" />
+          <mxGeometry x="894.6900000000002" y="4435.75" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-78" value="AS IS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="280" y="3480" width="60" height="30" as="geometry" />
+          <mxGeometry x="302.19" y="4120" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-79" value="TO BE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="3480" width="60" height="30" as="geometry" />
+          <mxGeometry x="1072.19" y="4120" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="86VfkSiz01hcMzgRxgEs-81" target="86VfkSiz01hcMzgRxgEs-77" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-81" value="api gateway&lt;br&gt;(kong)" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="883.5000000000001" y="3968" width="127.5" height="50" as="geometry" />
+          <mxGeometry x="905.6900000000002" y="4608" width="127.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="86VfkSiz01hcMzgRxgEs-83" target="86VfkSiz01hcMzgRxgEs-81" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="86VfkSiz01hcMzgRxgEs-83" value="outro contexto" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="767.5000000000001" y="4120" width="150" height="60" as="geometry" />
+          <mxGeometry x="789.6900000000002" y="4760" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="orozF_-n0L-bT-OUZomg-1" value="Migração&lt;br&gt;&lt;br&gt;vv-viamais-carrinho-api-v2" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="440.62" y="4730" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="408.12" y="5320" width="177.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="orozF_-n0L-bT-OUZomg-2" value="Plano restruturação arquitetura Carrinho" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="190" y="4610" width="437.5" height="72" as="geometry" />
+          <mxGeometry x="157.5" y="5200" width="437.5" height="72" as="geometry" />
         </mxCell>
         <mxCell id="orozF_-n0L-bT-OUZomg-3" value="Criação &lt;br&gt;figital-carrinho-bff" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="605" y="4730" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="572.5" y="5320" width="177.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="orozF_-n0L-bT-OUZomg-4" value="Rotina de &lt;br&gt;expurgo carrinhos" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1206.88" y="4730" width="212.5" height="80" as="geometry" />
+          <mxGeometry x="1174.38" y="5320" width="212.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="orozF_-n0L-bT-OUZomg-5" value="Rever &lt;br&gt;modelo de dados&lt;br&gt;carrinho" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1560" y="4730" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="1527.5" y="5320" width="177.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="orozF_-n0L-bT-OUZomg-6" value="Remover algumas responsabilidades &lt;br&gt;de consultas do frontend" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1737.5" y="4730" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="1705" y="5320" width="177.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="orozF_-n0L-bT-OUZomg-7" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Motivadores&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;ul style=&quot;line-height: 110%;&quot;&gt;&lt;li style=&quot;&quot;&gt;Dividir responsabilidades&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Blindar frontend&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Isolar integrações no bff&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=19;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="490.62" y="4820" width="227.5" height="90" as="geometry" />
+          <mxGeometry x="458.12" y="5410" width="227.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="orozF_-n0L-bT-OUZomg-8" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Motivadores&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;ul style=&quot;line-height: 120%;&quot;&gt;&lt;li style=&quot;&quot;&gt;Remover documentos não mais utilizados&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Carrinho com 1 dia de vida&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=19;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1180" y="4820" width="243.75" height="100" as="geometry" />
+          <mxGeometry x="1147.5" y="5410" width="243.75" height="100" as="geometry" />
         </mxCell>
         <mxCell id="orozF_-n0L-bT-OUZomg-9" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Motivadores&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;ul style=&quot;line-height: 120%;&quot;&gt;&lt;li style=&quot;&quot;&gt;Persistir informações que não são alteradas durante o dia&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Reduzir requests no frontend&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Performar tempo de carregamento carrinho&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=19;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1590" y="4820" width="285" height="120" as="geometry" />
+          <mxGeometry x="1557.5" y="5410" width="285" height="120" as="geometry" />
         </mxCell>
         <mxCell id="orozF_-n0L-bT-OUZomg-10" value="Rename API&lt;br&gt;&lt;br&gt;vv-viamais-carrinho-api-v2&lt;br&gt;to&lt;br&gt;figital-carrinho-api" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1990" y="4730" width="217.5" height="80" as="geometry" />
+          <mxGeometry x="1957.5" y="5320" width="217.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="orozF_-n0L-bT-OUZomg-13" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; Tempo de vida do carrinho&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; 1 dia, O vendedor mantem produto no carrinho pra reutilizar depois? se não, não tem sentido manter mais de 1 dia.&amp;nbsp;&lt;/span&gt;Com isso, podemos guardar estado de algumas informações que vem do catalogo no momento de inserção, reduzindo requests no carrinho&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; Se esse tempo for alterado futuramente, teremos que rever os dados salvos no carrinho&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1140" y="4900" width="350" height="180" as="geometry" />
+          <mxGeometry x="1107.5" y="5490" width="350" height="180" as="geometry" />
         </mxCell>
         <mxCell id="orozF_-n0L-bT-OUZomg-14" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; Gravar estoque do produto no carrinho (no momento de inserir produto)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; Se por acaso o vendedor seguir com a venda um tempo depois de inserir o produto no carrinho,&amp;nbsp;&lt;/span&gt;o checkout pode revalidar o estoque e já ter acabado. Qual impacto disso?&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; Com isso não precisamos consultar estoque no carrinho, reduzindo requests&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1577.5" y="4920" width="330" height="180" as="geometry" />
+          <mxGeometry x="1545" y="5510" width="330" height="180" as="geometry" />
         </mxCell>
         <mxCell id="orozF_-n0L-bT-OUZomg-15" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; Gravar preço do produto no carrinho&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; Nesse caso podemos colocar o bff pra chamar o precificação e atualizar o preço item no carrinho em toda consulta do carrinho&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #6796e6;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; Com isso, o time de negociação não precisa precificar os produtos do lado deles&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1577.5" y="5100" width="330" height="160" as="geometry" />
+          <mxGeometry x="1545" y="5690" width="330" height="160" as="geometry" />
         </mxCell>
         <mxCell id="gVN27NeZoPIKah9yrGvB-1" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;// Rascunho carrinho-bff response&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;_id&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;contexto&quot;&lt;/span&gt;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;canalVenda&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;empresa&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;codigoFilial&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;matriculaVendedor&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;bandeira&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;CASAS_BAHIA&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;cliente&quot;&lt;/span&gt;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;codigo&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;tipoPessoa&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;FISICA&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;status&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;ABERTO | FECHADO | INTEGRADO&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;produtos&quot;&lt;/span&gt;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;_id&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;nome&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;imagem&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;url&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;sku&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;tipo&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;MERCADORIA | CONJUNTO | CELULAR&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;preco&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;, &lt;span style=&quot;color: #6a9955;&quot;&gt;// [bff -&amp;gt; vv-precificacao] (gravar no carrinho)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;codigoSetor&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;quantidade&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;matriculaVendedor&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;habilitado&quot;&lt;/span&gt;: &lt;span style=&quot;color: #569cd6;&quot;&gt;true&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;estoque&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;PADRAO&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;entrega&quot;&lt;/span&gt;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;tipo&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;ENDERECO&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;endereco&quot;&lt;/span&gt;: { &lt;span style=&quot;color: #6a9955;&quot;&gt;// [bff -&amp;gt; vv-crm] (faz sentido gravar isso no carrinho?)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;codigoCrm&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;123456&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;rua&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;bairro&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;numero&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;frete&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;100&lt;/span&gt; &lt;span style=&quot;color: #6a9955;&quot;&gt;// [bff -&amp;gt; logistica-entrega-api] (gravar no carrinho)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;criadoEm&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;entregaOpcoes&quot;&lt;/span&gt;: { &lt;span style=&quot;color: #6a9955;&quot;&gt;// [bff -&amp;gt; vv-entrega]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;ENDERECO&quot;&lt;/span&gt;: &lt;span style=&quot;color: #569cd6;&quot;&gt;true&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;RETIRA_LOJA&quot;&lt;/span&gt;: &lt;span style=&quot;color: #569cd6;&quot;&gt;true&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;RETIRA_OUTRA_LOJA&quot;&lt;/span&gt;: &lt;span style=&quot;color: #569cd6;&quot;&gt;false&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;estoqueOpcoes&quot;&lt;/span&gt;: { &lt;span style=&quot;color: #6a9955;&quot;&gt;// [bff -&amp;gt; vv-estoque]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;PADRAO&quot;&lt;/span&gt;: { &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;quantidade&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;preco&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;SALDO&quot;&lt;/span&gt;: { &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;quantidade&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;4&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;preco&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;MOSTRUARIO&quot;&lt;/span&gt;: { &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;quantidade&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;preco&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;equivalenciaOpcoes&quot;&lt;/span&gt;: { &lt;span style=&quot;color: #6a9955;&quot;&gt;// [bff -&amp;gt; vv-catalogo] só pra pegar isso? não da pra resolver isso no front?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;VOLTAGEM&quot;&lt;/span&gt;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; { &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;nome&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;v110&quot;&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;sku&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;4824423&lt;/span&gt; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; { &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;nome&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;v220&quot;&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;sku&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;4824431&lt;/span&gt; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;COR&quot;&lt;/span&gt;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; { &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;nome&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;Preto&quot;&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;sku&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;4622120&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;imagem&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;url&quot;&lt;/span&gt; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; { &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;nome&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;Azul&quot;&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;sku&quot;&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;4622122&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;imagem&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;url&quot;&lt;/span&gt; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #6a9955;&quot;&gt;// Faz sentido colocarmos opções de operadoras/chip aqui também?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;criadoEm&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;&quot;alteradoEm&quot;&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="177.5" y="4900" width="872.5" height="1260" as="geometry" />
+          <mxGeometry x="145" y="5490" width="872.5" height="1260" as="geometry" />
         </mxCell>
         <mxCell id="7Gi67ZOoJuHHMh3OFSdN-1" value="Configurar API Gateway&lt;br&gt;Kong" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="2250" y="4730" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="2217.5" y="5320" width="177.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7Gi67ZOoJuHHMh3OFSdN-4" value="S" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7Gi67ZOoJuHHMh3OFSdN-3" target="-DI5YKNw4406hn3TdQVi-183" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1114,37 +1093,52 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7Gi67ZOoJuHHMh3OFSdN-3" value="Existe carrinho?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2281.25" y="2961.5" width="146.25" height="119" as="geometry" />
+          <mxGeometry x="2551.25" y="2890.5" width="146.25" height="119" as="geometry" />
         </mxCell>
         <mxCell id="7Gi67ZOoJuHHMh3OFSdN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="7Gi67ZOoJuHHMh3OFSdN-5" target="-DI5YKNw4406hn3TdQVi-183" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7Gi67ZOoJuHHMh3OFSdN-5" value="criar carrinho" style="whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="2279.25" y="3150" width="150" height="60" as="geometry" />
+          <mxGeometry x="2549.25" y="3079" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V3Q58RV3s94az-cAkU3E-1" value="&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; color: rgb(23, 43, 77); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Request:{&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;codigoFilial&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;bandeira&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;Enum&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;matriculaVendedor&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;cliente&quot;&lt;/span&gt;: {&lt;span class=&quot;code-comment&quot; style=&quot;color: rgb(128, 128, 128);&quot;&gt;&lt;br&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp;  &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;codigo&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;br/&gt;&lt;pre style=&quot;color: rgb(240, 240, 240); margin-top: 0px; margin-bottom: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal;&quot; class=&quot;code-java&quot;&gt;&lt;font color=&quot;#009100&quot;&gt;     &quot;nome&quot;: &quot;Sring&quot;,&lt;/font&gt;&lt;/pre&gt;&amp;nbsp; &amp;nbsp;  &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;tipoPessoa&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;String&lt;/span&gt;&quot;&lt;/span&gt;&lt;br&gt;&amp;nbsp; }&lt;br&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="2605" width="215" height="127.5" as="geometry" />
+        <mxCell id="V3Q58RV3s94az-cAkU3E-1" value="&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; color: rgb(23, 43, 77); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Request:{&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;codigoFilial&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;, // token&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;bandeira&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;Enum&quot;&lt;/span&gt;, // token&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;matriculaVendedor&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;, // token&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;cliente&quot;&lt;/span&gt;: {&lt;span class=&quot;code-comment&quot; style=&quot;color: rgb(128, 128, 128);&quot;&gt;&lt;br&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp;  &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;codigo&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;br&gt;&lt;pre style=&quot;color: rgb(240, 240, 240); margin-top: 0px; margin-bottom: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal;&quot; class=&quot;code-java&quot;&gt;&lt;font color=&quot;#009100&quot;&gt;     &quot;nome&quot;: &quot;Sring&quot;,&lt;/font&gt;&lt;/pre&gt;&amp;nbsp; &amp;nbsp;  &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;tipoPessoa&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;String&lt;/span&gt;&quot;&lt;/span&gt;&lt;br&gt;&amp;nbsp; }&lt;br&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="423" y="2311.5" width="270" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="V3Q58RV3s94az-cAkU3E-2" value="&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; color: rgb(23, 43, 77); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Request:{&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;codigoFilial&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;bandeira&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;Enum&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;matriculaVendedor&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;&lt;br&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="2335" width="215" height="127.5" as="geometry" />
+        <mxCell id="V3Q58RV3s94az-cAkU3E-2" value="&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; color: rgb(23, 43, 77); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Request:{&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;codigoFilial&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;, // token&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;bandeira&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;Enum&quot;&lt;/span&gt;, // token&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;matriculaVendedor&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot; // token&lt;/span&gt;&lt;br&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1081" y="2247.5" width="260" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="V3Q58RV3s94az-cAkU3E-4" value="&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; color: rgb(23, 43, 77); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Request:{&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;codigoFilial&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;bandeira&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;Enum&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;matriculaVendedor&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;&lt;br&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="941.25" y="2705.75" width="215" height="127.5" as="geometry" />
+        <mxCell id="V3Q58RV3s94az-cAkU3E-4" value="&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; color: rgb(23, 43, 77); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Request:{&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;codigoFilial&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;, // token&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;bandeira&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;Enum&quot;&lt;/span&gt;, // token&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;matriculaVendedor&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot; // token&lt;/span&gt;&lt;br&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1370" y="2787.5" width="260" height="86.5" as="geometry" />
         </mxCell>
-        <mxCell id="V3Q58RV3s94az-cAkU3E-6" value="&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(23, 43, 77);&quot;&gt;Request:{&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;codigoFilial&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;bandeira&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;Enum&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;matriculaVendedor&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;cliente&quot;&lt;/span&gt;: { // Optional&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;font color=&quot;#009100&quot;&gt;&quot;codigo&quot;: &lt;span class=&quot;code-quote&quot; style=&quot;&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;/font&gt;&lt;/pre&gt;&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;pre style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal;&quot; class=&quot;code-java&quot;&gt;&lt;font color=&quot;#009100&quot;&gt;     &quot;nome&quot;: &quot;Sring&quot;&lt;span style=&quot;&quot; class=&quot;code-quote&quot;&gt;&lt;/span&gt;,&lt;/font&gt;&lt;/pre&gt;&lt;font color=&quot;#172b4d&quot;&gt;&amp;nbsp; &amp;nbsp;  &lt;/font&gt;&lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;tipoPessoa&quot;&lt;/span&gt;&lt;font color=&quot;#172b4d&quot;&gt;: &lt;/font&gt;&lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;String&lt;/span&gt;&quot;&lt;/span&gt;&lt;font color=&quot;#172b4d&quot;&gt;&lt;br&gt;&amp;nbsp; }&lt;br&gt;}&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="84" y="2121" width="255" height="164" as="geometry" />
+        <mxCell id="V3Q58RV3s94az-cAkU3E-6" value="&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(23, 43, 77);&quot;&gt;Request:{&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;cliente&quot;&lt;/span&gt;: { // Optional&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;font color=&quot;#009100&quot;&gt;&quot;codigo&quot;: &lt;span class=&quot;code-quote&quot; style=&quot;&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;/font&gt;&lt;/pre&gt;&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font color=&quot;#172b4d&quot;&gt;&amp;nbsp; &amp;nbsp;  &lt;/font&gt;&lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;tipoPessoa&quot;&lt;/span&gt;&lt;font color=&quot;#172b4d&quot;&gt;: &lt;/font&gt;&lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;String&lt;/span&gt;&quot;&lt;/span&gt;&lt;font color=&quot;#172b4d&quot;&gt;&lt;br&gt;&amp;nbsp; }&lt;br&gt;}&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="46.5" y="2702.5" width="196" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="V3Q58RV3s94az-cAkU3E-7" value="&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; color: rgb(23, 43, 77); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Request:{&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;codigoFilial&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;bandeira&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;Enum&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;matriculaVendedor&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;&lt;br&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="3080.5" width="215" height="127.5" as="geometry" />
+        <mxCell id="V3Q58RV3s94az-cAkU3E-7" value="&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; color: rgb(23, 43, 77); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Request:{&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;codigoFilial&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;, // token&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;bandeira&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;Enum&quot;&lt;/span&gt;, // token&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;matriculaVendedor&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot; // token&lt;/span&gt;&lt;br&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="2935" width="262.5" height="83" as="geometry" />
         </mxCell>
-        <mxCell id="V3Q58RV3s94az-cAkU3E-9" value="&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; orphans: 2; text-align: left; text-indent: 0px; widows: 2; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font color=&quot;#172b4d&quot;&gt;Request:&lt;br/&gt;PathVariable: idCarrinhoAntigo: &quot;Carrinho do vendedor&quot;&lt;br&gt;PathVariable: IdCarrinhoNovo: &quot;Carrinho do cliente&quot;&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="2407.5" width="285" height="127.5" as="geometry" />
+        <mxCell id="V3Q58RV3s94az-cAkU3E-9" value="&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; orphans: 2; text-align: left; text-indent: 0px; widows: 2; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font color=&quot;#172b4d&quot;&gt;Request:&lt;br/&gt;PathVariable: idCarrinhoAntigo: &quot;Carrinho do vendedor&quot;&lt;br&gt;PathVariable: IdCarrinhoNovo: &quot;Carrinho do cliente&quot;&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2031" y="2391.25" width="369" height="58.75" as="geometry" />
         </mxCell>
-        <mxCell id="Ae2ZJgn9B5l1d6io4XHC-1" value="&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; color: rgb(23, 43, 77); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Request:{&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;codigoFilial&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;bandeira&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;Enum&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;matriculaVendedor&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;cliente&quot;&lt;/span&gt;: { &lt;span class=&quot;code-comment&quot; style=&quot;color: rgb(128, 128, 128);&quot;&gt;// Optional&lt;br&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp;  &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;codigo&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;/pre&gt;&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; color: rgb(23, 43, 77); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;pre style=&quot;color: rgb(240, 240, 240); margin-top: 0px; margin-bottom: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal;&quot; class=&quot;code-java&quot;&gt;&lt;font color=&quot;#009100&quot;&gt;     &quot;nome&quot;: &quot;Sring&quot;,&lt;/font&gt;&lt;/pre&gt;&amp;nbsp; &amp;nbsp;  &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;tipoPessoa&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;String&lt;/span&gt;&quot;&lt;/span&gt;&lt;br&gt;&amp;nbsp; }&lt;br&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="2821" width="250" height="150" as="geometry" />
+        <mxCell id="Ae2ZJgn9B5l1d6io4XHC-1" value="&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; color: rgb(23, 43, 77); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Request:{&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;codigoFilial&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;bandeira&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;Enum&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;matriculaVendedor&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;cliente&quot;&lt;/span&gt;: { &lt;span class=&quot;code-comment&quot; style=&quot;color: rgb(128, 128, 128);&quot;&gt;// Optional&lt;br&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp;  &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;codigo&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;/pre&gt;&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; color: rgb(23, 43, 77); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;pre style=&quot;color: rgb(240, 240, 240); margin-top: 0px; margin-bottom: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal;&quot; class=&quot;code-java&quot;&gt;&lt;font color=&quot;#009100&quot;&gt;     &quot;nome&quot;: &quot;Sring&quot;,&lt;/font&gt;&lt;/pre&gt;&amp;nbsp; &amp;nbsp;  &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;tipoPessoa&quot;&lt;/span&gt;: &lt;span class=&quot;code-quote&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;&quot;&lt;span class=&quot;code-object&quot; style=&quot;color: rgb(0, 145, 0);&quot;&gt;String&lt;/span&gt;&quot;&lt;/span&gt;&lt;br&gt;&amp;nbsp; }&lt;br&gt;}&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2030" y="2750" width="250" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Ae2ZJgn9B5l1d6io4XHC-2" value="&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; orphans: 2; text-align: left; text-indent: 0px; widows: 2; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font color=&quot;#172b4d&quot;&gt;Request:&lt;br&gt;PathVariable: IdCarrinho: &quot;Carrinho do cliente&quot;&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; orphans: 2; text-align: left; text-indent: 0px; widows: 2; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;pre style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; color: rgb(23, 43, 77);&quot; class=&quot;code-java&quot;&gt;&quot;cliente&quot;: { &lt;span style=&quot;color: rgb(128, 128, 128);&quot; class=&quot;code-comment&quot;&gt;// Optional&lt;br&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(0, 145, 0);&quot; class=&quot;code-quote&quot;&gt;&quot;codigo&quot;&lt;/span&gt;: &lt;span style=&quot;color: rgb(0, 145, 0);&quot; class=&quot;code-quote&quot;&gt;&quot;&lt;span class=&quot;code-object&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(0, 145, 0);&quot; class=&quot;code-quote&quot;&gt;&quot;tipoPessoa&quot;&lt;/span&gt;: &lt;span style=&quot;color: rgb(0, 145, 0);&quot; class=&quot;code-quote&quot;&gt;&quot;&lt;span class=&quot;code-object&quot;&gt;String&lt;/span&gt;&quot;&lt;/span&gt;&lt;br&gt;&amp;nbsp; }&lt;/pre&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1761" y="2030" width="462" height="127.5" as="geometry" />
+        <mxCell id="Ae2ZJgn9B5l1d6io4XHC-2" value="&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; orphans: 2; text-align: left; text-indent: 0px; widows: 2; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font color=&quot;#172b4d&quot;&gt;Request:&lt;br&gt;PathVariable: IdCarrinho: &quot;Carrinho do cliente&quot;&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; orphans: 2; text-align: left; text-indent: 0px; widows: 2; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;pre style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; color: rgb(23, 43, 77);&quot; class=&quot;code-java&quot;&gt;&quot;cliente&quot;: { &lt;span style=&quot;color: rgb(128, 128, 128);&quot; class=&quot;code-comment&quot;&gt;// Optional&lt;br&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(0, 145, 0);&quot; class=&quot;code-quote&quot;&gt;&quot;codigo&quot;&lt;/span&gt;: &lt;span style=&quot;color: rgb(0, 145, 0);&quot; class=&quot;code-quote&quot;&gt;&quot;&lt;span class=&quot;code-object&quot;&gt;Long&lt;/span&gt;&quot;&lt;/span&gt;,&lt;br&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(0, 145, 0);&quot; class=&quot;code-quote&quot;&gt;&quot;tipoPessoa&quot;&lt;/span&gt;: &lt;span style=&quot;color: rgb(0, 145, 0);&quot; class=&quot;code-quote&quot;&gt;&quot;&lt;span class=&quot;code-object&quot;&gt;String&lt;/span&gt;&quot;&lt;/span&gt;&lt;br&gt;&amp;nbsp; }&lt;/pre&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2030" y="2013.75" width="330" height="96.25" as="geometry" />
+        </mxCell>
+        <mxCell id="N5qyBVYvWZqJE2b_7YSL-1" value="&lt;pre class=&quot;code-java&quot; style=&quot;margin: 0px; padding: 0px; max-height: 30em; overflow: auto; overflow-wrap: normal; color: rgb(23, 43, 77); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 245, 247); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Request: [{ produto }]&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="3240" width="170" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="N5qyBVYvWZqJE2b_7YSL-3" value="Enviar notificação&lt;br&gt;&lt;br&gt;http request" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1061.25" y="3064.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N5qyBVYvWZqJE2b_7YSL-7" value="Alterar status IdCarrinhoAntigo para FECHADO" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="3077.5" y="2486.62" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="N5qyBVYvWZqJE2b_7YSL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N5qyBVYvWZqJE2b_7YSL-9" target="-DI5YKNw4406hn3TdQVi-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N5qyBVYvWZqJE2b_7YSL-9" value="transferir seguros/servicos status habilitado&amp;nbsp;do idCarrinhoAntigo &lt;br&gt;para idCarrinhoNovo" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2556.25" y="2470" width="212.5" height="105" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
