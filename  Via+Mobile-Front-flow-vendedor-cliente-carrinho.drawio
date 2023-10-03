@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T17:48:40.629Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="jV5ZaxWvUHN6C8mCzR7v" version="22.0.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-03T17:53:18.766Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="PEJfOSpQvjKTDDqARwNw" version="22.0.2" type="github" pages="5">
   <diagram id="Ah3j89J9dZjGGa0gmjgg" name="v1">
     <mxGraphModel dx="9213" dy="5620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -1587,7 +1587,7 @@
         <mxCell id="DckiXdW4GtxKWxRuu2b9-10" value="Configurar &lt;br&gt;produtos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="577.5" y="1275" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DckiXdW4GtxKWxRuu2b9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DckiXdW4GtxKWxRuu2b9-12" target="DckiXdW4GtxKWxRuu2b9-18">
+        <mxCell id="DckiXdW4GtxKWxRuu2b9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DckiXdW4GtxKWxRuu2b9-32" target="DckiXdW4GtxKWxRuu2b9-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DckiXdW4GtxKWxRuu2b9-12" value="Ofertar seguros/serviços" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1619,9 +1619,6 @@
         </mxCell>
         <mxCell id="DckiXdW4GtxKWxRuu2b9-31" value="Consultar preço&lt;br&gt;produtos&lt;br&gt;(vv-precificacao)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="700" y="1275" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DckiXdW4GtxKWxRuu2b9-32" value="Consultar preço seguros/serviços&lt;br&gt;(catalogo-servicos)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="820" y="1275" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DckiXdW4GtxKWxRuu2b9-34" value="Consultar moedas pagamento" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1280" y="1580" width="120" height="60" as="geometry" />
@@ -1676,6 +1673,9 @@
         </mxCell>
         <mxCell id="DckiXdW4GtxKWxRuu2b9-51" value="Distribuir formas pagamento em cada venda" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="2000" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DckiXdW4GtxKWxRuu2b9-32" value="Consultar preço seguros/serviços&lt;br&gt;(catalogo-servicos)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="697.5" y="1450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
