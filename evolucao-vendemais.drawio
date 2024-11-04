@@ -358,7 +358,7 @@
           <mxGeometry x="1620" y="1501.25" width="70" height="57.5" as="geometry" />
         </mxCell>
         <mxCell id="oD3bgYSZx1_EezM_nqmY-79" value="Criar boirlerplate&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;vendemais-nf-init&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="755" y="880" width="155" height="100" as="geometry" />
+          <mxGeometry x="662.5" y="880" width="155" height="100" as="geometry" />
         </mxCell>
         <mxCell id="oD3bgYSZx1_EezM_nqmY-82" value="Atualizar projetos com últimos deploys" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1790" y="1150" width="390" height="40" as="geometry" />
@@ -400,7 +400,7 @@
           <mxGeometry x="2370" y="1330" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oD3bgYSZx1_EezM_nqmY-97" value="Quality Gate&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;80%&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=15;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="955" y="880" width="155" height="100" as="geometry" />
+          <mxGeometry x="862.5" y="880" width="155" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
