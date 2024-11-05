@@ -14,7 +14,7 @@
           <mxGeometry x="1160" y="1030" width="500" height="850" as="geometry" />
         </mxCell>
         <mxCell id="oD3bgYSZx1_EezM_nqmY-5" value="Outubro" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="80" y="1030" width="470" height="850" as="geometry" />
+          <mxGeometry x="80" y="1030" width="470" height="540" as="geometry" />
         </mxCell>
         <mxCell id="uVXglK_rULCIlqvBaK8J-3" value="Squad" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="80" y="180" width="290" height="190" as="geometry" />
