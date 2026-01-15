@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.1.1" pages="4">
-  <diagram id="A01rnbTs59aHLhlL2Hwx" name="Contextos">
-    <mxGraphModel dx="2250" dy="1159" grid="0" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="A01rnbTs59aHLhlL2Hwx" name="Imersão">
+    <mxGraphModel dx="1480" dy="676" grid="0" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,10 +67,86 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Tag GA" id="7dE0GqQPqVVGo10q4nGR">
-    <mxGraphModel dx="678" dy="311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1431" dy="959" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#09555B;fontColor=#1A1A1A;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-22" y="181" as="sourcePoint" />
+            <mxPoint x="704" y="181" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;rounded=1;fontColor=#060606;fontStyle=1;shadow=0;glass=0;gradientColor=none;" value="Tagueamento Vende+" vertex="1">
+          <mxGeometry height="49" width="176" x="-67" y="-46" as="geometry" />
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#09555B;fontSize=9;fontStyle=1;fontColor=#FFFFFF;" value="Fase 1" vertex="1">
+          <mxGeometry height="36" width="36" x="-9" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#1A1A1A;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(9, 85, 91);&quot;&gt;Login&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;v1 simples para criar sinergia e entender processo com o time de dados. Primeira análise de como os dados estão chegando no GA&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="105" width="152" x="-67" y="189" as="geometry" />
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=9;strokeColor=#09555B;fontColor=#09555B;fontStyle=1" value="Fase 2" vertex="1">
+          <mxGeometry height="36" width="36" x="139.5" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#1A1A1A;fontSize=10;fontFamily=Helvetica;" value="&lt;div&gt;Mapear eventos de ponta a ponta que contemplam um fluxo de venda básico&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(26, 26, 26), rgb(215, 215, 215));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(9, 85, 91);&quot;&gt;Fluxo básico de venda&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(26, 26, 26), rgb(215, 215, 215));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="105" width="152" x="81.5" y="69" as="geometry" />
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=9;strokeColor=#09555B;fontColor=#09555B;fontStyle=1" value="Fase 3" vertex="1">
+          <mxGeometry height="36" width="36" x="287.5" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#1A1A1A;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(9, 85, 91);&quot;&gt;Contextos&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Cada contexto deverá implementar o seus tagueamentos&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="105" width="152" x="229.5" y="189" as="geometry" />
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-41" connectable="0" parent="1" style="group;shadow=0;" value="" vertex="1">
+          <mxGeometry height="217" width="306.5" x="385" y="-143" as="geometry" />
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-29" edge="1" parent="hcAxqNYVHcP4-ZKRj4bw-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#09555B;fontColor=#1A1A1A;curved=1;fontSize=10;shadow=0;" target="hcAxqNYVHcP4-ZKRj4bw-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="177.50000000000023" y="25.48275862068965" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-26" parent="hcAxqNYVHcP4-ZKRj4bw-41" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;shadow=0;strokeColor=none;" value="Definir eventos no mapa de coleta com time de dados" vertex="1">
+          <mxGeometry height="51" width="116.5" x="95" as="geometry" />
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-30" edge="1" parent="hcAxqNYVHcP4-ZKRj4bw-41" source="hcAxqNYVHcP4-ZKRj4bw-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#09555B;fontColor=#1A1A1A;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;shadow=0;" target="hcAxqNYVHcP4-ZKRj4bw-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-27" parent="hcAxqNYVHcP4-ZKRj4bw-41" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;shadow=0;strokeColor=none;" value="Implementar na jornada" vertex="1">
+          <mxGeometry height="37" width="116.5" x="190" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-33" edge="1" parent="hcAxqNYVHcP4-ZKRj4bw-41" source="hcAxqNYVHcP4-ZKRj4bw-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#09555B;fontColor=#1A1A1A;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;fontSize=10;shadow=0;" target="hcAxqNYVHcP4-ZKRj4bw-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="248.25" y="157.0000000000001" as="sourcePoint" />
+            <mxPoint x="192.50000000000023" y="206.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-28" parent="hcAxqNYVHcP4-ZKRj4bw-41" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;shadow=0;strokeColor=none;" value="Validar com time de dados" vertex="1">
+          <mxGeometry height="45" width="116.5" x="190" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-37" edge="1" parent="hcAxqNYVHcP4-ZKRj4bw-41" source="hcAxqNYVHcP4-ZKRj4bw-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#09555B;fontColor=#1A1A1A;curved=1;fontSize=10;shadow=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="hcAxqNYVHcP4-ZKRj4bw-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="58.25" y="162.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-31" parent="hcAxqNYVHcP4-ZKRj4bw-41" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;shadow=0;strokeColor=none;" value="Validar com&amp;nbsp;&lt;div&gt;time de dados&lt;/div&gt;" vertex="1">
+          <mxGeometry height="51" width="116.5" x="95" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-38" edge="1" parent="hcAxqNYVHcP4-ZKRj4bw-41" source="hcAxqNYVHcP4-ZKRj4bw-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#09555B;fontColor=#1A1A1A;fontSize=10;shadow=0;" target="hcAxqNYVHcP4-ZKRj4bw-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-35" parent="hcAxqNYVHcP4-ZKRj4bw-41" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;shadow=0;strokeColor=none;" value="Publicar" vertex="1">
+          <mxGeometry height="30" width="116.5" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-36" parent="hcAxqNYVHcP4-ZKRj4bw-41" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;shadow=0;strokeColor=none;" value="Acompanhar" vertex="1">
+          <mxGeometry height="34" width="116.5" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-39" edge="1" parent="hcAxqNYVHcP4-ZKRj4bw-41" source="hcAxqNYVHcP4-ZKRj4bw-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.437;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#09555B;fontColor=#1A1A1A;exitX=0.5;exitY=0;exitDx=0;exitDy=0;curved=1;fontSize=10;shadow=0;" target="hcAxqNYVHcP4-ZKRj4bw-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hcAxqNYVHcP4-ZKRj4bw-40" parent="hcAxqNYVHcP4-ZKRj4bw-41" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#1A1A1A;fontSize=10;shadow=0;fontStyle=1" value="Workflow" vertex="1">
+          <mxGeometry height="30" width="60" x="123.5" y="97" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -267,7 +343,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pKZv5WDh9MZrBmoHDPq3" name="Login AD">
-    <mxGraphModel dx="2596" dy="1159" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2176" dy="811" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
