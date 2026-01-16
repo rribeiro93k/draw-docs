@@ -175,7 +175,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GcagbpEPRN5IJwiyJrhX" name="Design System">
-    <mxGraphModel dx="1703" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1648" dy="676" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -435,17 +435,41 @@
             <mxPoint x="637" y="912" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s1tP-3bchnXQAvxLZAsk-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="shell" vertex="1">
-          <mxGeometry height="284" width="408" x="1246" y="1275" as="geometry" />
+        <mxCell id="s1tP-3bchnXQAvxLZAsk-7" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=14;labelBackgroundColor=none;shadow=1;fillColor=#09555B;strokeColor=none;fontColor=#FFFFFF;" value="&lt;b&gt;Quando um componente deve ir para estrutura de Design System ?&lt;br&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="44" width="248.5" x="-11" y="1540" as="geometry" />
         </mxCell>
-        <mxCell id="s1tP-3bchnXQAvxLZAsk-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="header" vertex="1">
-          <mxGeometry height="31" width="363" x="1290" y="1275" as="geometry" />
+        <mxCell id="s1tP-3bchnXQAvxLZAsk-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#333333;shadow=1;" value="Reuso real&lt;div&gt;(não hipotético)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="49" width="150" x="-11" y="1638" as="geometry" />
         </mxCell>
-        <mxCell id="s1tP-3bchnXQAvxLZAsk-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="menu" vertex="1">
-          <mxGeometry height="284" width="46" x="1246" y="1275" as="geometry" />
+        <mxCell id="s1tP-3bchnXQAvxLZAsk-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontStyle=0" value="O componente é usado hoje por 2+ apps/squads?&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Existe roadmap confirmado de reuso em curto prazo?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="82" width="159" x="-11" y="1712.5" as="geometry" />
         </mxCell>
-        <mxCell id="s1tP-3bchnXQAvxLZAsk-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="remotes&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;catalogo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;carrinho&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;checkout&lt;/div&gt;" vertex="1">
-          <mxGeometry height="194" width="297" x="1320" y="1320" as="geometry" />
+        <mxCell id="s1tP-3bchnXQAvxLZAsk-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontStyle=0" value="O layout é estável?&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Mudanças são incrementais, não frequentes?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Estados e interações são previsíveis?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="123" width="159" x="183" y="1712.5" as="geometry" />
+        </mxCell>
+        <mxCell id="s1tP-3bchnXQAvxLZAsk-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#333333;shadow=1;" value="Estabilidade do layout e comportamento" vertex="1">
+          <mxGeometry height="54" width="147.5" x="183" y="1638" as="geometry" />
+        </mxCell>
+        <mxCell id="s1tP-3bchnXQAvxLZAsk-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#333333;shadow=1;" value="Dependência de regra de negócio" vertex="1">
+          <mxGeometry height="54" width="147.5" x="385" y="1638" as="geometry" />
+        </mxCell>
+        <mxCell id="s1tP-3bchnXQAvxLZAsk-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontStyle=0" value="&lt;div&gt;O componente depende de:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;regras de preço?&lt;/div&gt;&lt;div&gt;estoque?&lt;/div&gt;&lt;div&gt;permissões?&lt;/div&gt;&lt;div&gt;feature flags?&lt;/div&gt;&lt;div&gt;tracking específico?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="118" width="159" x="385" y="1712.5" as="geometry" />
+        </mxCell>
+        <mxCell id="s1tP-3bchnXQAvxLZAsk-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#333333;shadow=1;" value="Complexidade da API (props / inputs)" vertex="1">
+          <mxGeometry height="54" width="147.5" x="589" y="1638" as="geometry" />
+        </mxCell>
+        <mxCell id="s1tP-3bchnXQAvxLZAsk-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontStyle=0" value="A API é simples e previsível?&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Evita props condicionais excessivas?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dá pra explicar em 30 segundos?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="124" width="159" x="589" y="1712.5" as="geometry" />
+        </mxCell>
+        <mxCell id="s1tP-3bchnXQAvxLZAsk-38" parent="1" style="text;whiteSpace=wrap;" value="Design System padroniza decisões.&#xa;Domínio implementa intenção de negócio." vertex="1">
+          <mxGeometry height="39" width="252" x="258" y="1548" as="geometry" />
+        </mxCell>
+        <mxCell id="s1tP-3bchnXQAvxLZAsk-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#333333;shadow=1;" value="Testabilidade e acessibilidade" vertex="1">
+          <mxGeometry height="54" width="147.5" x="789" y="1638" as="geometry" />
+        </mxCell>
+        <mxCell id="s1tP-3bchnXQAvxLZAsk-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontStyle=0" value="&lt;div&gt;Dá pra garantir:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- acessibilidade (WCAG)&lt;/div&gt;&lt;div&gt;- estados completos&lt;/div&gt;&lt;div&gt;- testes automatizados?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="89" width="159" x="786.5" y="1712.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
