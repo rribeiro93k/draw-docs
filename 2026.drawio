@@ -91,7 +91,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Tag GA" id="7dE0GqQPqVVGo10q4nGR">
-    <mxGraphModel dx="1383" dy="959" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1215" dy="863" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -175,8 +175,8 @@
         <mxCell id="HLCaSD1B_eNfohcFpc2t-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;a href=&quot;https://viavarejo.sharepoint.com/sites/WebAnalytics88/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FWebAnalytics88%2FDocumentos%20Compartilhados%2F01%2E%20Mapas%20de%20Coleta%2FVende%2B%2FMapa%20de%20Coleta%20%2D%20Vende%2B%20%2D%20Web%20%2D%20v2%2Epdf&amp;amp;parent=%2Fsites%2FWebAnalytics88%2FDocumentos%20Compartilhados%2F01%2E%20Mapas%20de%20Coleta%2FVende%2B&amp;amp;p=true&amp;amp;ga=1&quot;&gt;Mapa de Coleta&lt;/a&gt;" vertex="1">
           <mxGeometry height="30" width="113" x="-67" y="-43" as="geometry" />
         </mxCell>
-        <mxCell id="HLCaSD1B_eNfohcFpc2t-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#fff2cc;align=left;verticalAlign=top;rounded=0;spacingLeft=10;fontSize=10;" value="&lt;div&gt;&lt;b&gt;Eventos&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1 - login&lt;/div&gt;&lt;div&gt;2 - view_item &lt;i&gt;(PDP)&lt;/i&gt;&lt;/div&gt;&lt;div&gt;3 - add_to_cart&lt;/div&gt;&lt;div&gt;4 - view_cart&lt;/div&gt;&lt;div&gt;5 - add_shipping_info &lt;i&gt;(formas de entrega)&lt;/i&gt;&lt;/div&gt;&lt;div&gt;6 - begin_checkout &lt;i&gt;(?)&lt;/i&gt;&lt;/div&gt;&lt;div&gt;7- select_payment_info &lt;i&gt;(habilitou botão finalizar)&lt;/i&gt;&lt;/div&gt;&lt;div&gt;8 - add_payment_info &lt;i&gt;(clicou em finalizar)&lt;/i&gt;&lt;/div&gt;&lt;div&gt;9 - Purchase &lt;i&gt;(resumo do pedido)&lt;/i&gt;&lt;br&gt;&lt;br&gt;+ Identificação do cliente&lt;/div&gt;" vertex="1">
-          <mxGeometry height="172" width="247" x="194" y="344" as="geometry" />
+        <mxCell id="HLCaSD1B_eNfohcFpc2t-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#fff2cc;align=left;verticalAlign=top;rounded=0;spacingLeft=10;fontSize=10;" value="&lt;div&gt;&lt;b&gt;Eventos&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1 - login &lt;i&gt;(ok)&lt;/i&gt;&lt;/div&gt;&lt;div&gt;2 - view_item &lt;i&gt;(PDP)&lt;/i&gt;&lt;/div&gt;&lt;div&gt;3 - add_to_cart &lt;i&gt;(ao clicar no botão de adicionar ao carrinho)&lt;/i&gt;&lt;/div&gt;&lt;div&gt;4 - view_cart (carregou item no carrinho)&lt;/div&gt;&lt;div&gt;5 - add_shipping_info &lt;i&gt;(formas de entrega)&lt;/i&gt;&lt;/div&gt;&lt;div&gt;6 - begin_checkout &lt;i&gt;(?)&lt;/i&gt;&lt;/div&gt;&lt;div&gt;7- select_payment_info &lt;i&gt;(habilitou botão finalizar)&lt;/i&gt;&lt;/div&gt;&lt;div&gt;8 - add_payment_info &lt;i&gt;(clicou em finalizar)&lt;/i&gt;&lt;/div&gt;&lt;div&gt;9 - Purchase &lt;i&gt;(resumo do pedido)&lt;/i&gt;&lt;br&gt;&lt;br&gt;+ Identificação do cliente&lt;/div&gt;" vertex="1">
+          <mxGeometry height="172" width="304" x="194" y="344" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
