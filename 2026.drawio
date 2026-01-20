@@ -182,7 +182,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GcagbpEPRN5IJwiyJrhX" name="Design System">
-    <mxGraphModel dx="2724" dy="1475" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1415" dy="416" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -477,6 +477,9 @@
         </mxCell>
         <mxCell id="s1tP-3bchnXQAvxLZAsk-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontStyle=0" value="&lt;div&gt;Dá pra garantir:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- acessibilidade (WCAG)&lt;/div&gt;&lt;div&gt;- estados completos&lt;/div&gt;&lt;div&gt;- testes automatizados?&lt;/div&gt;" vertex="1">
           <mxGeometry height="89" width="159" x="2763.5" y="304.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aLXoHIwKTFh5KDkFhpzG-1" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=30;position=0.44;base=14;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=2;fontSize=12;position2=1;" value="Falando com o Saad, hoje não temos acesso de devMode então ele precisa fazer a conversão manual para disponibilizar o figma &quot;tokenizado&quot; para os devs" vertex="1">
+          <mxGeometry height="139" width="167" x="-148" y="708" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
