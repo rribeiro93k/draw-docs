@@ -182,7 +182,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GcagbpEPRN5IJwiyJrhX" name="Design System">
-    <mxGraphModel dx="1415" dy="416" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1833" dy="587" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -485,7 +485,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pKZv5WDh9MZrBmoHDPq3" name="Login AD">
-    <mxGraphModel dx="1272" dy="499" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1618" dy="499" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -722,7 +722,7 @@
         <mxCell id="T6AhEjVBtXsGE-aRNfVz-21" edge="1" parent="1" source="T6AhEjVBtXsGE-aRNfVz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="T6AhEjVBtXsGE-aRNfVz-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T6AhEjVBtXsGE-aRNfVz-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#1A1A1A;fillColor=none;labelBackgroundColor=none;strokeColor=#D0CEE2;" value="&lt;font&gt;SPA&lt;/font&gt;" vertex="1">
+        <mxCell id="T6AhEjVBtXsGE-aRNfVz-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#1A1A1A;fillColor=none;labelBackgroundColor=none;strokeColor=#D0CEE2;" value="&lt;font&gt;SPA/&lt;/font&gt;&lt;div&gt;&lt;font&gt;WebApp&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="47" width="103" x="827.5" y="1550.53" as="geometry" />
         </mxCell>
         <mxCell id="T6AhEjVBtXsGE-aRNfVz-6" edge="1" parent="1" source="T6AhEjVBtXsGE-aRNfVz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="T6AhEjVBtXsGE-aRNfVz-5">
@@ -788,8 +788,8 @@
         <mxCell id="2YHh9w1-kiPmROu9bIZz-3" edge="1" parent="1" source="2YHh9w1-kiPmROu9bIZz-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="T6AhEjVBtXsGE-aRNfVz-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2YHh9w1-kiPmROu9bIZz-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#f8cecc;align=left;verticalAlign=top;rounded=0;" value="Faz sentido ter um novo serviço de autenticação? Com a ideia de começar pelo Atende+ e depois virar o Vende+" vertex="1">
-          <mxGeometry height="87" width="168.5" x="582" y="1786" as="geometry" />
+        <mxCell id="2YHh9w1-kiPmROu9bIZz-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#f8cecc;align=left;verticalAlign=top;rounded=0;spacingLeft=5;spacingBottom=10;spacingTop=10;spacingRight=10;" value="Faz sentido ter um novo serviço de autenticação? Com a ideia de começar pelo Atende+ e depois virar o Vende+" vertex="1">
+          <mxGeometry height="104" width="155" x="582" y="1746" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
