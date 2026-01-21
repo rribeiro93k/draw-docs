@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.2" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.3" pages="5">
   <diagram id="A01rnbTs59aHLhlL2Hwx" name="Imersão">
     <mxGraphModel dx="3330" dy="1622" grid="0" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -790,6 +790,54 @@
         </mxCell>
         <mxCell id="2YHh9w1-kiPmROu9bIZz-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#f8cecc;align=left;verticalAlign=top;rounded=0;spacingLeft=5;spacingBottom=10;spacingTop=10;spacingRight=10;" value="Faz sentido ter um novo serviço de autenticação? Com a ideia de começar pelo Atende+ e depois virar o Vende+" vertex="1">
           <mxGeometry height="104" width="155" x="582" y="1746" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HFwM-lE-oX1a_PFn1ra3" name="Home 2.0">
+    <mxGraphModel dx="1988" dy="676" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vr0CpiUlSqdK04E3yNsd-9" edge="1" parent="1" source="vr0CpiUlSqdK04E3yNsd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" target="vr0CpiUlSqdK04E3yNsd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vr0CpiUlSqdK04E3yNsd-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cortex" vertex="1">
+          <mxGeometry height="44" width="120" x="-220" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="vr0CpiUlSqdK04E3yNsd-10" edge="1" parent="1" source="vr0CpiUlSqdK04E3yNsd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" target="vr0CpiUlSqdK04E3yNsd-8" value="&lt;i&gt;request&lt;/i&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5" y="407" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vr0CpiUlSqdK04E3yNsd-13" edge="1" parent="1" source="vr0CpiUlSqdK04E3yNsd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="vr0CpiUlSqdK04E3yNsd-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vr0CpiUlSqdK04E3yNsd-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="App" vertex="1">
+          <mxGeometry height="60" width="120" x="-61" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="vr0CpiUlSqdK04E3yNsd-7" edge="1" parent="1" source="vr0CpiUlSqdK04E3yNsd-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="vr0CpiUlSqdK04E3yNsd-1" value="opera">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vr0CpiUlSqdK04E3yNsd-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Marketing" vertex="1">
+          <mxGeometry height="60" width="30" x="-417" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="vr0CpiUlSqdK04E3yNsd-11" edge="1" parent="1" source="vr0CpiUlSqdK04E3yNsd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontStyle=2" target="vr0CpiUlSqdK04E3yNsd-3" value="json">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="29.5" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vr0CpiUlSqdK04E3yNsd-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="API" vertex="1">
+          <mxGeometry height="44" width="120" x="-61" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="vr0CpiUlSqdK04E3yNsd-15" edge="1" parent="1" source="vr0CpiUlSqdK04E3yNsd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vr0CpiUlSqdK04E3yNsd-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vr0CpiUlSqdK04E3yNsd-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Parser" vertex="1">
+          <mxGeometry height="36" width="99" x="123" y="436" as="geometry" />
+        </mxCell>
+        <mxCell id="vr0CpiUlSqdK04E3yNsd-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Carregar&lt;/div&gt;Componente" vertex="1">
+          <mxGeometry height="36" width="99" x="286" y="436" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
