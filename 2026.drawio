@@ -963,7 +963,7 @@
           <mxGeometry height="25" width="107" x="2870.82" y="1675" as="geometry" />
         </mxCell>
         <mxCell id="t8mQi7fiij42TgjyzOpq-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Requisitos&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;- Vendedor só pode fazer login na sua filial de cadastro (responsabilidade EntraID ou aplicação?) - EntraID devolve informações de cadastro do vendedor, ex.: matricula?&lt;/p&gt;&lt;p&gt;- Vendedor não pode fazer login fora da jornada de trabalho (responsabilidade EntraID)&lt;/p&gt;&lt;p&gt;- Estratégia de login retrocompatível para fazer transição de forma incremental&lt;/p&gt;&lt;p&gt;- Rollout novo login por filial (Podemos usar blob e controle pelo sistema de desligamento Via+)&lt;/p&gt;&lt;p&gt;- Time precisa gerenciar as roles - Dependência com cyber&lt;/p&gt;" vertex="1">
-          <mxGeometry height="286" width="340" x="3093.25" y="1177" as="geometry" />
+          <mxGeometry height="266" width="340" x="3083" y="900" as="geometry" />
         </mxCell>
         <mxCell id="t8mQi7fiij42TgjyzOpq-37" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="28.78" width="567" x="-287" y="192" as="geometry" />
@@ -1142,6 +1142,9 @@
         </mxCell>
         <mxCell id="t8mQi7fiij42TgjyzOpq-98" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#09555B;fontColor=#09555B;" value="" vertex="1">
           <mxGeometry height="15.5" width="15.5" x="2242.75" y="1735.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t8mQi7fiij42TgjyzOpq-101" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;V1&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;- Resolver autenticação sem depender do J2&lt;/p&gt;&lt;p&gt;- Manter o mesmo token do vv-autorizacao, com os mesmos dados&lt;/p&gt;&lt;p&gt;- Feature flag por filial para renderizar o novo login&lt;/p&gt;&lt;p&gt;- Antes da autenticação pelo EntraID, haverá uma tela em que o vendedor precisará informar a Bandeira e Filial&lt;/p&gt;" vertex="1">
+          <mxGeometry height="266" width="340" x="3083" y="1218.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
