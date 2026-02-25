@@ -1310,25 +1310,25 @@
         <mxCell id="HO-8xH9JqZc3MyhyzBDg-19" edge="1" parent="1" source="HO-8xH9JqZc3MyhyzBDg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HO-8xH9JqZc3MyhyzBDg-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HO-8xH9JqZc3MyhyzBDg-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#6c8ebf;fillColor=#dae8fc;" value="&lt;font&gt;Descoberta&lt;/font&gt;" vertex="1">
+        <mxCell id="HO-8xH9JqZc3MyhyzBDg-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#001DBC;fillColor=#0050ef;fontColor=#ffffff;" value="&lt;font&gt;Descoberta&lt;/font&gt;" vertex="1">
           <mxGeometry height="50" width="80" x="561" y="700" as="geometry" />
         </mxCell>
         <mxCell id="HO-8xH9JqZc3MyhyzBDg-8" edge="1" parent="1" source="HO-8xH9JqZc3MyhyzBDg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HO-8xH9JqZc3MyhyzBDg-7" value="Alçada Desconto">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HO-8xH9JqZc3MyhyzBDg-12" edge="1" parent="1" source="HO-8xH9JqZc3MyhyzBDg-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HO-8xH9JqZc3MyhyzBDg-11">
+        <mxCell id="HO-8xH9JqZc3MyhyzBDg-12" edge="1" parent="1" source="HO-8xH9JqZc3MyhyzBDg-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HO-8xH9JqZc3MyhyzBDg-11" value="Consistir Carrinho">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HO-8xH9JqZc3MyhyzBDg-20" edge="1" parent="1" source="HO-8xH9JqZc3MyhyzBDg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HO-8xH9JqZc3MyhyzBDg-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HO-8xH9JqZc3MyhyzBDg-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#6c8ebf;fillColor=#dae8fc;" value="&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Negociação&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="HO-8xH9JqZc3MyhyzBDg-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#001DBC;fillColor=#0050ef;fontColor=#ffffff;" value="&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Negociação&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="80" x="719" y="700" as="geometry" />
         </mxCell>
         <mxCell id="HO-8xH9JqZc3MyhyzBDg-10" edge="1" parent="1" source="HO-8xH9JqZc3MyhyzBDg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HO-8xH9JqZc3MyhyzBDg-9" value="Order Flow">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HO-8xH9JqZc3MyhyzBDg-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#6c8ebf;fillColor=#dae8fc;" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Checkout&lt;/span&gt;" vertex="1">
+        <mxCell id="HO-8xH9JqZc3MyhyzBDg-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#001DBC;fillColor=#0050ef;fontColor=#ffffff;" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Checkout&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="80" x="876" y="700" as="geometry" />
         </mxCell>
         <mxCell id="HO-8xH9JqZc3MyhyzBDg-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#36393d;fillColor=#eeeeee;dashed=1;dashPattern=8 8;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Inteligência Comercial&lt;/span&gt;" vertex="1">
@@ -1340,7 +1340,7 @@
         <mxCell id="HO-8xH9JqZc3MyhyzBDg-14" edge="1" parent="1" source="HO-8xH9JqZc3MyhyzBDg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HO-8xH9JqZc3MyhyzBDg-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HO-8xH9JqZc3MyhyzBDg-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#6c8ebf;fillColor=#dae8fc;" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Motor de Validação&lt;/span&gt;" vertex="1">
+        <mxCell id="HO-8xH9JqZc3MyhyzBDg-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#001DBC;fillColor=#0050ef;fontColor=#ffffff;" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Motor de Validação&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="80" x="749" y="822" as="geometry" />
         </mxCell>
         <mxCell id="HO-8xH9JqZc3MyhyzBDg-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#36393d;fillColor=#eeeeee;dashed=1;dashPattern=8 8;" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Capacidades&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;(S&amp;amp;S)&lt;/span&gt;&lt;/div&gt;" vertex="1">
