@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.5" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.5" pages="7">
   <diagram id="A01rnbTs59aHLhlL2Hwx" name="Imersão">
     <mxGraphModel dx="819" dy="239" grid="0" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1415,6 +1415,14 @@
         <mxCell id="YlQXPg_d6pyB7_0dES-U-23" parent="1" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAHEAAABuCAYAAAAQ/vyeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMhSURBVHhe7drPS9NxHMfx9yJ2mCNl5iBcpwkL2WWZym6iggcJJKijdSiCrl26hEl/QDdPHdRrIIEkBGt0k36QF4mMPER2WWxUqAcJ1i34vtt3323fz+f74+XrcXx9B5t78tEvm4lms9kUirUzeqD4YUQAjAiAEQEkur2xef66Ibv7x7KzdyRvdg/le+1EP4S6MJxNymQxLaVCnxTzKVmYyuiHeOo44kHtRG4/3peX2z/1JTJorjwgTx/mJZdN6kuuOoq4/uKH3Fz6omeyaG15RBbnh/TckmfEV29/yey9j3qmAFRWRmVmol/P/2kbsfH7jwxOv9MzBaheHZfMubN6dmh7d3r/yVc9UcA6aeAacaPakNXNmp4pYKubNdmoNvTs4Brxw6dDPVFIvFq4RtzZO9YThcSrRZuIR3qikHi1cL07TVzZ1lNLzfdlPVEXTLzPrieR4oMRATAiAEYEwIgAGBEAIwJgRACMCADqE5vT+pp5EgEwIgBGBMCIABgRACMCYEQAjAiAEQEwIgBGBMCIABgRACMCiNxXUZ0+b1jC+nnbPS9PIgBGBMCIABgRACMCYEQAjAiAEQEwIoDIfWLjx2l9zTyJABgRACMCYEQAjAiAEQEwIgBGBMCIABgRACMCYEQAjAiAEQFAfRUVRybeZ55EAIwIgBEBMCIARgTAiAAYEQAjAmBEAFY+sbnx4LM8q9T1TD0aziblYGtMz/8YP4kMaN5kMa0nB6MRGdCOUqFPTw7GIjKgPcV8Sk8ORiIyoD1z5QFZmMro2cH3jc312UEGtOjb1pjkskk9O/g+iQxoz9ryiGdAMRGR7KisjMri/JCeW2LEiLl1NSv16rjMTPTrS658/00kfy6cT0qp0CelQkouX0rLten2NzGtBBJx6U5OHt29qGcyxPqvUwa0z2pEBgyGtYgMGBwrERkwWMYjMmDwjEZkwHAYi8iA4TESkQHD5TsiA4bPV0QGjIaeIzJgdPQUkQGjpeuIDBg9XUVkwGjqOCIDRldHERkw2jwjMmD0tY3IgPHgGpEB48P1f2woPlxPIsUHIwJgRACMCOAvQAsFCiYoqKQAAAAASUVORK5CYII=;" value="" vertex="1">
           <mxGeometry height="21.15" width="21.72" x="559.3199999999999" y="837.35" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kSH6Od0awll5YRR3TTvT" name="POC Cameras Loja">
+    <mxGraphModel dx="1426" dy="811" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
