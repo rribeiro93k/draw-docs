@@ -1419,18 +1419,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kSH6Od0awll5YRR3TTvT" name="POC Cameras Loja">
-    <mxGraphModel dx="1619" dy="1076" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1990" dy="959" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3wJqhgLepRiBoZICRD8K-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;div&gt;&lt;b&gt;Para Conectividade&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Qual loja?&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Qual arquivo?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Qual tamanho arquivo?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Qual endereço de destino?&lt;/div&gt;" vertex="1">
-          <mxGeometry height="169" width="178" x="400" y="-234" as="geometry" />
+          <mxGeometry height="161" width="178" x="417" y="-234" as="geometry" />
         </mxCell>
         <mxCell id="3wJqhgLepRiBoZICRD8K-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;div&gt;&lt;b&gt;Camera Loja&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Software:&lt;/b&gt; Digifort (Licença Enterprise)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A câmera gera arquivo .dar (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;próprio&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) de 30 em 30 minutos, faz gravações por movimento&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="109" width="371" x="-282" y="-234" as="geometry" />
         </mxCell>
         <mxCell id="3wJqhgLepRiBoZICRD8K-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;div&gt;&lt;b&gt;Ver com Datamint&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Qual tipo de arquivo precisa ser?&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Qual destino para envio?&lt;/div&gt;&lt;div&gt;(Entender protocolo)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="127" width="180" x="154" y="-234" as="geometry" />
+          <mxGeometry height="127" width="180" x="140" y="-234" as="geometry" />
         </mxCell>
         <mxCell id="3wJqhgLepRiBoZICRD8K-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;shadow=1;" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Filtrar os arquivos &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;por horário&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 120%;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Devemos filtrar um tamanho máximo de arquivo?&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="119" width="149" x="-259" y="120" as="geometry" />
@@ -1462,7 +1462,7 @@
         <mxCell id="3wJqhgLepRiBoZICRD8K-16" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#002D95;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;b&gt;Envio&lt;/b&gt;" vertex="1">
           <mxGeometry height="55" width="209" x="308" y="54" as="geometry" />
         </mxCell>
-        <mxCell id="V1y_FWMiO6UztdjimO1U-1" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#f8cecc;strokeColor=none;size=41;position=0.46;base=11;fontSize=10;" value="Testar&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;conversão para&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.mp4&lt;/span&gt;" vertex="1">
+        <mxCell id="V1y_FWMiO6UztdjimO1U-1" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#d5e8d4;strokeColor=none;size=41;position=0.46;base=11;fontSize=10;" value="Testar&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;conversão para&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.mp4&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;OK&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="95" width="131" x="-51" y="-34" as="geometry" />
         </mxCell>
         <mxCell id="639Bw974slXXye4kagFD-1" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#f8cecc;strokeColor=none;size=41;position=0.46;base=11;fontSize=10;" value="Definir loja e horário piloto" vertex="1">
@@ -1470,6 +1470,27 @@
         </mxCell>
         <mxCell id="639Bw974slXXye4kagFD-2" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#f8cecc;strokeColor=none;size=41;position=0.46;base=11;fontSize=10;" value="Consigo limitar tamanho da banda para upload?" vertex="1">
           <mxGeometry height="95" width="131" x="347" y="-36" as="geometry" />
+        </mxCell>
+        <mxCell id="0JjyadfKA-XUTG35-Fip-1" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#0053F6;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;div&gt;&lt;b&gt;Coleta&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="150" x="-624" y="783" as="geometry" />
+        </mxCell>
+        <mxCell id="0JjyadfKA-XUTG35-Fip-2" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#0047D7;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;b&gt;Transformação&lt;/b&gt;" vertex="1">
+          <mxGeometry height="53" width="151" x="-485" y="783" as="geometry" />
+        </mxCell>
+        <mxCell id="0JjyadfKA-XUTG35-Fip-3" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#003BB6;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;b&gt;Criptografia&lt;/b&gt;" vertex="1">
+          <mxGeometry height="54" width="127" x="-344" y="784" as="geometry" />
+        </mxCell>
+        <mxCell id="0JjyadfKA-XUTG35-Fip-4" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#002D95;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;b&gt;Envio&lt;/b&gt;" vertex="1">
+          <mxGeometry height="55" width="120" x="-226" y="784" as="geometry" />
+        </mxCell>
+        <mxCell id="0JjyadfKA-XUTG35-Fip-5" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" value="&lt;b&gt;Coleta e&lt;/b&gt;&lt;div&gt;&lt;b&gt;mapa de calor&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="147" x="-118" y="784" as="geometry" />
+        </mxCell>
+        <mxCell id="0JjyadfKA-XUTG35-Fip-7" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#002D95;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;b&gt;Trazer os dados pra GCB&lt;/b&gt;" vertex="1">
+          <mxGeometry height="55" width="210" x="198" y="784" as="geometry" />
+        </mxCell>
+        <mxCell id="0JjyadfKA-XUTG35-Fip-8" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" value="&lt;b&gt;Persistencia dos dados&lt;/b&gt;&lt;div&gt;&lt;b&gt;no DynamoDB&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="190" x="18" y="784" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
