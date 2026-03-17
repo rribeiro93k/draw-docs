@@ -652,7 +652,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pKZv5WDh9MZrBmoHDPq3" name="Login AD">
-    <mxGraphModel dx="3055" dy="1475" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1670" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -986,7 +986,7 @@
         <mxCell id="jMVBgQIhbEKmtYn-JYFx-55" edge="1" parent="1" source="jMVBgQIhbEKmtYn-JYFx-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" target="jMVBgQIhbEKmtYn-JYFx-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jMVBgQIhbEKmtYn-JYFx-60" edge="1" parent="1" source="jMVBgQIhbEKmtYn-JYFx-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontStyle=2;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" target="jMVBgQIhbEKmtYn-JYFx-59" value="Authorization&lt;div&gt;header&lt;/div&gt;">
+        <mxCell id="jMVBgQIhbEKmtYn-JYFx-60" edge="1" parent="1" source="jMVBgQIhbEKmtYn-JYFx-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontStyle=2;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeColor=#09555B;" target="jMVBgQIhbEKmtYn-JYFx-59" value="Authorization&lt;div&gt;header&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jMVBgQIhbEKmtYn-JYFx-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=none;labelBackgroundColor=none;strokeColor=#09555B;" value="Client&lt;div&gt;App&lt;/div&gt;" vertex="1">
@@ -1010,7 +1010,7 @@
         <mxCell id="jMVBgQIhbEKmtYn-JYFx-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=0" value="&lt;i&gt;T&lt;/i&gt;&lt;i style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;oken JWT&lt;/i&gt;" vertex="1">
           <mxGeometry height="30" width="192" x="2348.25" y="2401" as="geometry" />
         </mxCell>
-        <mxCell id="jMVBgQIhbEKmtYn-JYFx-75" edge="1" parent="1" source="jMVBgQIhbEKmtYn-JYFx-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="jMVBgQIhbEKmtYn-JYFx-49">
+        <mxCell id="jMVBgQIhbEKmtYn-JYFx-75" edge="1" parent="1" source="jMVBgQIhbEKmtYn-JYFx-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;strokeColor=#09555B;" target="jMVBgQIhbEKmtYn-JYFx-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jMVBgQIhbEKmtYn-JYFx-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=none;labelBackgroundColor=none;strokeColor=#09555B;" value="products-api" vertex="1">
